@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "project": "Hayah-Pulse-Glass-Box-Life-Course-Preventive-Intelligence",
+  "purpose": "Glass-box registry of what each Cursor agent rule, skill, and governed capability does. Nothing agent-facing is active unless listed here.",
+  "updated_at": "2026-11-18",
+  "agents": [
+    {
+      "id": "cursor-ide-agent",
+      "kind": "coding-agent",
+      "host": "cursor",
+      "does": "Implements product code, tests, docs, and API changes under registered rules and skills.",
+      "status": "active"
+    }
+  ],
+  "registry": [
+    {
+      "id": "rule.testing-required",
+      "kind": "rule",
+      "path": ".cursor/rules/testing-required.mdc",
+      "does": "Requires unit, functional, integration, regression, black-box, and E2E tests on every implementation, plus self-verification before done.",
+      "always_apply": true,
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "rule.versioned-branches",
+      "kind": "rule",
+      "path": ".cursor/rules/versioned-branches.mdc",
+      "does": "Requires a dedicated versioned git branch for the next version of an implementation (feat/<area>-vN).",
+      "always_apply": true,
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "rule.api-versioning",
+      "kind": "rule",
+      "path": ".cursor/rules/api-versioning.mdc",
+      "does": "Requires all public HTTP APIs under /api/v{N}/... (e.g. /api/v1/profile); breaking changes create vN+1.",
+      "always_apply": true,
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "rule.agent-governance",
+      "kind": "rule",
+      "path": ".cursor/rules/agent-governance.mdc",
+      "does": "Requires every new or changed agent rule, skill, hook, or governed capability to be registered in .cursor/governance.json.",
+      "always_apply": true,
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "skill.ponytail",
+      "kind": "skill",
+      "path": "~/.cursor/skills/ponytail",
+      "scope": "user",
+      "does": "Lazy-senior mode: smallest complete change; levels lite/full/ultra; pairs with review/audit/debt/gain/help skills.",
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "skill.ui-ux-pro-max",
+      "kind": "skill",
+      "path": "~/.cursor/skills/ui-ux-pro-max",
+      "scope": "user",
+      "does": "UI/UX design intelligence: design systems, styles, typography, accessibility, and stack-specific UI guidance.",
+      "status": "active",
+      "registered_at": "2026-11-18"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+---
+description: Register every agent rule, skill, and capability in .cursor/governance.json
+alwaysApply: true
+---
+
+# Agent Governance Registry
+
+Any agent-facing capability that **does** something must be registered in [`.cursor/governance.json`](../governance.json). Unregistered = not governed.
+
+## Must register
+
+- New or changed `.cursor/rules/*.mdc`
+- Project or user skills this repo relies on
+- Hooks, subagents, or automations that change agent behavior
+- New agent roles/capabilities added under `agents[]`
+
+## Entry shape
+
+```json
+{
+  "id": "rule.example",
+  "kind": "rule|skill|hook|agent|capability",
+  "path": ".cursor/rules/example.mdc",
+  "does": "One sentence: what it does.",
+  "status": "active|deprecated",
+  "registered_at": "YYYY-MM-DD"
+}
+```
+
+## Workflow
+
+1. Add/change the rule, skill, or capability.
+2. Add or update its object in `registry` (and `agents` if a new agent role).
+3. Set `updated_at` on the file root to today.
+4. If retiring something: set `status` to `deprecated` — do not silently delete history unless the user asks.
+5. Never claim the governance change is done until the JSON entry matches reality (`does` must be accurate).
+
+## Anti-patterns
+
+- Shipping a new always-on rule without a `registry` entry
+- Vague `does` ("helps with stuff") — say the concrete behavior
+- Duplicate `id` values

@@ -1,0 +1,41 @@
+---
+description: All backend HTTP APIs use explicit versioned paths like /api/v1/...
+alwaysApply: true
+---
+
+# API Versioning
+
+Every public backend HTTP route is versioned. Prefer a well-engineered, stable contract over ad-hoc paths.
+
+## Path convention
+
+```
+/api/v{N}/<resource>[/<id>][/<action>]
+```
+
+Examples:
+
+| Method | Path | Purpose |
+| --- | --- | --- |
+| GET | `/api/v1/health` | Liveness (versioned too) |
+| GET | `/api/v1/profile` | Current user/resident profile |
+| GET | `/api/v1/profile/{id}` | Profile by id |
+| GET | `/api/v1/residents` | List |
+| GET | `/api/v1/metrics/evaluation` | Evaluation report |
+
+## Rules
+
+- **Always** include `/api/v{N}` — never ship bare `/profile` or unversioned `/api/residents` for new work.
+- Start new public APIs at **`v1`**. Do not invent `v0` routes for production contracts.
+- Breaking change (remove/rename field, change meaning, auth, or status codes) → **`v{N+1}`** new routes; keep `vN` working until callers migrate.
+- Additive non-breaking fields may stay on the current `vN`.
+- Group routers by version in code (e.g. FastAPI `APIRouter(prefix="/api/v1")`).
+- Errors: stable JSON shape across versions (`detail` / `code` / `request_id` as the project standardizes).
+- Document new/changed routes in the same PR/change set as the code.
+- Health may also expose `/health` unversioned for probes **only if** `/api/v1/health` remains the app contract; prefer the versioned one as the documented API.
+
+## Anti-patterns
+
+- Mixing `/api/residents` and `/api/v1/residents` as equals.
+- Silent breaking changes on `v1`.
+- Version only in headers while paths stay unversioned (path version is the project standard).

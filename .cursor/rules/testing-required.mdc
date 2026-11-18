@@ -1,0 +1,33 @@
+---
+description: Every implementation must ship with full test layers and self-verification
+alwaysApply: true
+---
+
+# Testing Required On Every Implementation
+
+No feature, API, script, or UI change is done until tests exist and have been run.
+
+## Required layers (add what fits; do not skip a layer without saying why)
+
+| Layer | What it proves | Typical place |
+| --- | --- | --- |
+| Unit | One function/class in isolation | `tests/unit/` or `*.test.ts` |
+| Functional | User-facing behavior of one capability | `tests/functional/` |
+| Integration | Modules/DB/API wired together | `tests/integration/` |
+| Regression | Old bugs stay fixed; prior paths still pass | `tests/regression/` + re-run suite |
+| Black-box | Behavior via public API/UI only (no internals) | `tests/blackbox/` |
+| E2E | Real user journey end-to-end | `tests/e2e/` |
+
+## Rules
+
+- New code → new or updated tests in **each** applicable layer above.
+- Bug fix → add a **regression** test that fails before the fix and passes after.
+- Prefer the project's existing test runner (pytest / vitest / playwright / etc.). Do not add a new framework if one exists.
+- Do not invent tests that never run. Wire them into the same commands the README documents.
+
+## Self-verify before claiming done
+
+1. Run the relevant test commands yourself.
+2. Report pass/fail counts (or paste the summary).
+3. If anything failed, fix it or say what blocked you — do not mark the task complete.
+4. End with: what was tested, what was skipped and why, residual risk.

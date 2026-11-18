@@ -1,0 +1,29 @@
+---
+description: Use versioned git branches for next implementations; never mix versions on one branch
+alwaysApply: true
+---
+
+# Versioned Implementation Branches
+
+When work moves to a **next version** of a feature, API, or release, switch (or create) a dedicated branch first. Do not pile v2 work onto an unfinished v1 branch without an explicit version cut.
+
+## Branch naming
+
+```
+feat/<area>-v<N>          # e.g. feat/profile-v1, feat/risk-engine-v2
+fix/<area>-v<N>           # e.g. fix/profile-v1
+release/v<N>              # cut / ship a version
+```
+
+## Workflow
+
+1. Before implementing the next version: `git status`, then create/switch — e.g. `git switch -c feat/profile-v2` from the last stable base (`main` or `feat/profile-v1`).
+2. Keep one primary version of a capability per branch. Breaking or parallel vN+1 work → new branch.
+3. Do not commit version-N+1 breaking changes onto the branch that still ships version N unless the user asks to combine them.
+4. Say the branch name in the reply when you switch or create one.
+5. Only commit/push when the user asks. Branch create/switch for versioned work is allowed when starting that work.
+
+## Docs / API alignment
+
+- Implementation version in the branch name should match the API/docs version when relevant (`feat/profile-v1` ↔ `/api/v1/profile`).
+- If unsure which base branch to use, ask once — then proceed.
