@@ -1,0 +1,2 @@
+n_residents,calibration_brier,calibration_slope,caregap_catch_rate_hayah,caregap_catch_rate_age_only,lift_vs_age_only,uncertainty_abstain_rate,small_cell_leak_count,reasons_coverage
+500,0.1745,0.8402,1.0,0.1593,5.2759,0.154,0,0.8814

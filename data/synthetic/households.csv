@@ -1,0 +1,151 @@
+household_id,district,member_count,has_child,has_adult,geographic_exposure_index
+HH-0001,Rare District Zayed,4,True,True,0.774
+HH-0002,Rare District Zayed,4,False,True,0.439
+HH-0003,Rare District Zayed,5,True,True,0.859
+HH-0004,Rare District Zayed,4,False,True,0.697
+HH-0005,Rare District Zayed,4,True,True,0.094
+HH-0006,Rare District Zayed,5,True,True,0.976
+HH-0007,Yas Island,4,False,True,0.761
+HH-0008,Saadiyat,4,True,True,0.786
+HH-0009,Al Ain,4,False,True,0.128
+HH-0010,Al Dhafra,4,True,True,0.45
+HH-0011,Abu Dhabi Island,4,True,True,0.371
+HH-0012,Khalifa City,4,True,True,0.927
+HH-0013,Mohammed Bin Zayed City,4,True,True,0.644
+HH-0014,Mussafah,4,True,True,0.823
+HH-0015,Al Shamkha,4,True,True,0.443
+HH-0016,Yas Island,4,True,True,0.227
+HH-0017,Saadiyat,3,True,True,0.555
+HH-0018,Al Ain,4,True,True,0.064
+HH-0019,Al Dhafra,4,True,True,0.828
+HH-0020,Abu Dhabi Island,4,True,True,0.632
+HH-0021,Khalifa City,4,True,True,0.758
+HH-0022,Mohammed Bin Zayed City,4,True,True,0.355
+HH-0023,Mussafah,4,True,True,0.971
+HH-0024,Al Shamkha,4,True,True,0.893
+HH-0025,Yas Island,4,True,True,0.778
+HH-0026,Saadiyat,4,True,True,0.195
+HH-0027,Al Ain,4,True,True,0.467
+HH-0028,Al Dhafra,4,True,True,0.044
+HH-0029,Abu Dhabi Island,4,True,True,0.154
+HH-0030,Khalifa City,4,True,True,0.683
+HH-0031,Mohammed Bin Zayed City,4,True,True,0.745
+HH-0032,Mussafah,4,True,True,0.968
+HH-0033,Al Shamkha,4,True,True,0.326
+HH-0034,Yas Island,4,True,True,0.37
+HH-0035,Saadiyat,4,True,True,0.47
+HH-0036,Al Ain,4,True,True,0.189
+HH-0037,Al Dhafra,4,True,True,0.13
+HH-0038,Abu Dhabi Island,4,True,True,0.476
+HH-0039,Khalifa City,4,True,True,0.227
+HH-0040,Mohammed Bin Zayed City,4,True,True,0.67
+HH-0041,Mussafah,4,True,True,0.437
+HH-0042,Al Shamkha,4,True,True,0.833
+HH-0043,Yas Island,4,True,True,0.7
+HH-0044,Saadiyat,4,True,True,0.312
+HH-0045,Al Ain,4,True,True,0.832
+HH-0046,Al Dhafra,4,True,True,0.805
+HH-0047,Abu Dhabi Island,4,True,True,0.387
+HH-0048,Khalifa City,4,True,True,0.288
+HH-0049,Mohammed Bin Zayed City,4,True,True,0.682
+HH-0050,Mussafah,4,True,False,0.14
+HH-0051,Al Shamkha,3,True,True,0.2
+HH-0052,Yas Island,3,True,False,0.007
+HH-0053,Saadiyat,3,True,True,0.787
+HH-0054,Al Ain,3,False,True,0.665
+HH-0055,Al Dhafra,3,True,True,0.705
+HH-0056,Abu Dhabi Island,3,False,True,0.781
+HH-0057,Khalifa City,3,False,True,0.459
+HH-0058,Mohammed Bin Zayed City,3,True,True,0.569
+HH-0059,Mussafah,3,True,True,0.14
+HH-0060,Al Shamkha,3,True,True,0.115
+HH-0061,Yas Island,3,True,True,0.668
+HH-0062,Saadiyat,3,True,False,0.471
+HH-0063,Al Ain,3,True,True,0.565
+HH-0064,Al Dhafra,3,True,False,0.765
+HH-0065,Abu Dhabi Island,3,True,True,0.635
+HH-0066,Khalifa City,3,True,True,0.554
+HH-0067,Mohammed Bin Zayed City,3,True,True,0.559
+HH-0068,Mussafah,3,True,True,0.304
+HH-0069,Al Shamkha,3,True,True,0.031
+HH-0070,Yas Island,3,True,True,0.437
+HH-0071,Saadiyat,3,True,True,0.215
+HH-0072,Al Ain,3,True,False,0.409
+HH-0073,Al Dhafra,3,False,True,0.853
+HH-0074,Abu Dhabi Island,3,False,True,0.234
+HH-0075,Khalifa City,3,False,True,0.058
+HH-0076,Mohammed Bin Zayed City,3,True,True,0.281
+HH-0077,Mussafah,3,False,True,0.294
+HH-0078,Al Shamkha,3,True,True,0.662
+HH-0079,Yas Island,3,True,True,0.557
+HH-0080,Saadiyat,3,False,True,0.784
+HH-0081,Al Ain,3,True,True,0.664
+HH-0082,Al Dhafra,3,True,False,0.406
+HH-0083,Abu Dhabi Island,3,True,True,0.814
+HH-0084,Khalifa City,3,True,True,0.167
+HH-0085,Mohammed Bin Zayed City,3,True,True,0.023
+HH-0086,Mussafah,3,True,True,0.09
+HH-0087,Al Shamkha,3,False,True,0.722
+HH-0088,Yas Island,3,False,True,0.462
+HH-0089,Saadiyat,3,True,True,0.161
+HH-0090,Al Ain,3,False,True,0.501
+HH-0091,Al Dhafra,3,True,True,0.152
+HH-0092,Abu Dhabi Island,3,True,True,0.696
+HH-0093,Khalifa City,3,True,True,0.446
+HH-0094,Mohammed Bin Zayed City,3,True,True,0.381
+HH-0095,Mussafah,3,False,True,0.302
+HH-0096,Al Shamkha,3,True,True,0.63
+HH-0097,Yas Island,3,True,True,0.362
+HH-0098,Saadiyat,3,True,False,0.088
+HH-0099,Al Ain,3,True,True,0.118
+HH-0100,Al Dhafra,3,True,True,0.962
+HH-0101,Abu Dhabi Island,3,True,True,0.909
+HH-0102,Khalifa City,3,True,True,0.7
+HH-0103,Mohammed Bin Zayed City,3,True,True,0.266
+HH-0104,Mussafah,3,False,True,0.969
+HH-0105,Al Shamkha,2,True,True,0.779
+HH-0106,Yas Island,3,True,True,0.717
+HH-0107,Saadiyat,3,False,True,0.449
+HH-0108,Al Ain,3,True,True,0.272
+HH-0109,Al Dhafra,3,True,True,0.096
+HH-0110,Abu Dhabi Island,3,True,True,0.903
+HH-0111,Khalifa City,3,True,True,0.456
+HH-0112,Mohammed Bin Zayed City,3,True,True,0.202
+HH-0113,Mussafah,3,False,True,0.306
+HH-0114,Al Shamkha,3,False,True,0.579
+HH-0115,Yas Island,3,True,True,0.177
+HH-0116,Saadiyat,3,True,True,0.857
+HH-0117,Al Ain,3,True,True,0.759
+HH-0118,Al Dhafra,3,True,True,0.719
+HH-0119,Abu Dhabi Island,3,True,True,0.432
+HH-0120,Khalifa City,3,True,True,0.627
+HH-0121,Mohammed Bin Zayed City,3,True,True,0.584
+HH-0122,Mussafah,3,True,True,0.65
+HH-0123,Al Shamkha,3,True,False,0.084
+HH-0124,Yas Island,3,True,True,0.416
+HH-0125,Saadiyat,3,False,True,0.042
+HH-0126,Al Ain,3,True,True,0.494
+HH-0127,Al Dhafra,3,True,True,0.33
+HH-0128,Abu Dhabi Island,3,True,False,0.145
+HH-0129,Khalifa City,3,True,False,0.103
+HH-0130,Mohammed Bin Zayed City,3,True,True,0.588
+HH-0131,Mussafah,3,True,True,0.171
+HH-0132,Al Shamkha,3,True,True,0.925
+HH-0133,Yas Island,3,True,True,0.581
+HH-0134,Saadiyat,3,True,False,0.347
+HH-0135,Al Ain,3,True,True,0.591
+HH-0136,Al Dhafra,3,False,True,0.023
+HH-0137,Abu Dhabi Island,3,True,True,0.959
+HH-0138,Khalifa City,3,True,True,0.482
+HH-0139,Mohammed Bin Zayed City,3,True,True,0.783
+HH-0140,Mussafah,3,True,False,0.083
+HH-0141,Al Shamkha,3,True,True,0.487
+HH-0142,Yas Island,3,True,True,0.491
+HH-0143,Saadiyat,3,True,True,0.938
+HH-0144,Al Ain,3,True,True,0.572
+HH-0145,Al Dhafra,3,True,True,0.473
+HH-0146,Abu Dhabi Island,3,True,True,0.267
+HH-0147,Khalifa City,3,True,False,0.332
+HH-0148,Mohammed Bin Zayed City,3,True,True,0.521
+HH-0149,Mussafah,3,True,True,0.439
+HH-0150,Al Shamkha,3,False,True,0.022

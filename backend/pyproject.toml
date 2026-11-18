@@ -1,0 +1,24 @@
+[project]
+name = "hayah-pulse"
+version = "0.1.0"
+description = "Glass-Box Life-Course Preventive Intelligence — prototype backend"
+readme = "../README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+markers = [
+  "unit: isolated unit tests",
+  "integration: wired modules/API",
+  "functional: capability behavior",
+  "regression: lock prior bugs/invariants",
+  "blackbox: public API only",
+  "e2e: end-to-end journeys",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -3,13 +3,30 @@
   "project": "Hayah-Pulse-Glass-Box-Life-Course-Preventive-Intelligence",
   "purpose": "Glass-box registry of what each Cursor agent rule, skill, and governed capability does. Nothing agent-facing is active unless listed here.",
   "updated_at": "2026-11-18",
+  "active_branch": "feat/ci-workflow-v1",
+  "api_contract": "/api/v1",
+  "compliance": {
+    "versioned_branches": "active_on_feat/ci-workflow-v1",
+    "api_versioning": "routes_under_/api/v1",
+    "testing_layers": [
+      "unit",
+      "integration",
+      "functional",
+      "regression",
+      "blackbox",
+      "e2e"
+    ],
+    "ci_workflow": ".github/workflows/ci.yml",
+    "audit_doc": "docs/governance-compliance-audit.md"
+  },
   "agents": [
     {
       "id": "cursor-ide-agent",
       "kind": "coding-agent",
       "host": "cursor",
-      "does": "Implements product code, tests, docs, and API changes under registered rules and skills.",
-      "status": "active"
+      "does": "Implements product code, versioned /api/v1 APIs, layered tests, CI, docs, and engine work under registered rules and skills.",
+      "status": "active",
+      "registered_at": "2026-11-18"
     }
   ],
   "registry": [
@@ -17,28 +34,31 @@
       "id": "rule.testing-required",
       "kind": "rule",
       "path": ".cursor/rules/testing-required.mdc",
-      "does": "Requires unit, functional, integration, regression, black-box, and E2E tests on every implementation, plus self-verification before done.",
+      "does": "Requires unit, functional, integration, regression, black-box, and E2E tests on every implementation (backend/tests/{unit,integration,functional,regression,blackbox,e2e}), plus self-verification before done.",
       "always_apply": true,
       "status": "active",
-      "registered_at": "2026-11-18"
+      "registered_at": "2026-11-18",
+      "updated_at": "2026-11-18"
     },
     {
       "id": "rule.versioned-branches",
       "kind": "rule",
       "path": ".cursor/rules/versioned-branches.mdc",
-      "does": "Requires a dedicated versioned git branch for the next version of an implementation (feat/<area>-vN).",
+      "does": "Requires a dedicated versioned git branch for the next version of an implementation (feat/<area>-vN); current work uses feat/ci-workflow-v1.",
       "always_apply": true,
       "status": "active",
-      "registered_at": "2026-11-18"
+      "registered_at": "2026-11-18",
+      "updated_at": "2026-11-18"
     },
     {
       "id": "rule.api-versioning",
       "kind": "rule",
       "path": ".cursor/rules/api-versioning.mdc",
-      "does": "Requires all public HTTP APIs under /api/v{N}/... (e.g. /api/v1/profile); breaking changes create vN+1.",
+      "does": "Requires all public HTTP APIs under /api/v{N}/...; Hayah-Pulse public contract is /api/v1/health, /api/v1/residents, /api/v1/engine, /api/v1/metrics.",
       "always_apply": true,
       "status": "active",
-      "registered_at": "2026-11-18"
+      "registered_at": "2026-11-18",
+      "updated_at": "2026-11-18"
     },
     {
       "id": "rule.agent-governance",
@@ -64,6 +84,45 @@
       "path": "~/.cursor/skills/ui-ux-pro-max",
       "scope": "user",
       "does": "UI/UX design intelligence: design systems, styles, typography, accessibility, and stack-specific UI guidance.",
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "capability.ci-workflow",
+      "kind": "capability",
+      "path": ".github/workflows/ci.yml",
+      "does": "GitHub Actions one-column stack (staging style): lint → unit → integration → functional → regression → blackbox → e2e → all.",
+      "status": "active",
+      "registered_at": "2026-11-18",
+      "related_docs": ["docs/ci-workflow.md"]
+    },
+    {
+      "id": "capability.ci-static-checkers",
+      "kind": "capability",
+      "path": "scripts/ci/",
+      "does": "Runs config YAML structure, secret-pattern scan, doc-config-drift, and relative markdown link checks used by CI static jobs.",
+      "status": "active",
+      "registered_at": "2026-11-18",
+      "scripts": [
+        "scripts/ci/check_config_yaml.py",
+        "scripts/ci/check_secret_patterns.py",
+        "scripts/ci/check_doc_config_drift.py",
+        "scripts/ci/check_doc_links.py"
+      ]
+    },
+    {
+      "id": "capability.test-layers",
+      "kind": "capability",
+      "path": "backend/tests/",
+      "does": "Hosts the six required pytest layers (unit, integration, functional, regression, blackbox, e2e) enforced by rule.testing-required and CI job chain.",
+      "status": "active",
+      "registered_at": "2026-11-18"
+    },
+    {
+      "id": "capability.api-v1",
+      "kind": "capability",
+      "path": "backend/app/main.py",
+      "does": "Serves the versioned public HTTP contract under /api/v1 for health, residents, engine outputs, and metrics.",
       "status": "active",
       "registered_at": "2026-11-18"
     }

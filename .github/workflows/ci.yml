@@ -1,0 +1,187 @@
+# Hayah-Pulse CI — one vertical column (staging-pipeline style UI):
+#   lint → unit → integration → functional → regression → blackbox → e2e → all
+name: ci
+
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install backend deps
+        run: python -m pip install -r backend/requirements.txt
+      - name: Byte-compile backend
+        run: python -m compileall -q backend/app backend/engine backend/scripts
+      - name: config-yaml
+        run: python scripts/ci/check_config_yaml.py
+      - name: secret-pattern
+        run: python scripts/ci/check_secret_patterns.py
+      - name: doc-config-drift
+        run: python scripts/ci/check_doc_config_drift.py
+      - name: doc-links
+        run: python scripts/ci/check_doc_links.py
+
+  unit:
+    name: unit
+    needs: [lint]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Unit tests
+        working-directory: backend
+        run: python -m pytest tests/unit -q --tb=short
+
+  integration:
+    name: integration
+    needs: [unit]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Integration tests
+        working-directory: backend
+        run: python -m pytest tests/integration -q --tb=short
+
+  functional:
+    name: functional
+    needs: [integration]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Ensure synthetic artifacts
+        run: |
+          python backend/scripts/generate_synthetic_cohort.py
+          python backend/scripts/run_engine.py
+      - name: Functional tests
+        working-directory: backend
+        run: python -m pytest tests/functional -q --tb=short
+
+  regression:
+    name: regression
+    needs: [functional]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Regression tests
+        working-directory: backend
+        run: python -m pytest tests/regression -q --tb=short
+
+  blackbox:
+    name: blackbox
+    needs: [regression]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Ensure synthetic artifacts
+        run: |
+          python backend/scripts/generate_synthetic_cohort.py
+          python backend/scripts/run_engine.py
+      - name: Black-box tests
+        working-directory: backend
+        run: python -m pytest tests/blackbox -q --tb=short
+
+  e2e:
+    name: e2e
+    needs: [blackbox]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Ensure synthetic artifacts
+        run: |
+          python backend/scripts/generate_synthetic_cohort.py
+          python backend/scripts/run_engine.py
+          python backend/scripts/run_evaluation.py
+      - name: API E2E journey
+        working-directory: backend
+        run: python -m pytest tests/e2e -q --tb=short
+      - name: Frontend production build
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+
+  all:
+    name: all
+    needs: [e2e]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: python -m pip install -r backend/requirements.txt
+      - name: Generate → engine → evaluate
+        run: |
+          python backend/scripts/generate_synthetic_cohort.py
+          python backend/scripts/run_engine.py
+          python backend/scripts/run_evaluation.py
+      - name: Evaluation gates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("data/synthetic/evaluation_report.json").read_text())
+          assert report["pass"]["lift_positive"] is True
+          assert report["pass"]["zero_small_cell_leaks"] is True
+          print("all: evaluation gates ok")
+          PY
+      - name: Full pytest suite
+        working-directory: backend
+        run: python -m pytest tests -q --tb=short
+      - name: CI green
+        run: echo "lint → unit → integration → functional → regression → blackbox → e2e → all"

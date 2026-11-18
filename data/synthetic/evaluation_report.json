@@ -1,0 +1,20 @@
+{
+  "dataset": "hayah_pulse_synthetic_v0.5",
+  "reference_date": "2026-11-18",
+  "metrics": {
+    "n_residents": 500,
+    "calibration_brier": 0.1745,
+    "calibration_slope": 0.8402,
+    "caregap_catch_rate_hayah": 1.0,
+    "caregap_catch_rate_age_only": 0.1593,
+    "lift_vs_age_only": 5.2759,
+    "uncertainty_abstain_rate": 0.154,
+    "small_cell_leak_count": 0,
+    "reasons_coverage": 0.8814
+  },
+  "pass": {
+    "lift_positive": true,
+    "zero_small_cell_leaks": true
+  },
+  "disclaimer": "Synthetic evaluation only \u2014 not a clinical validation study"
+}

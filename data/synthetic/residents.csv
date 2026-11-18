@@ -1,0 +1,501 @@
+resident_id,display_name,age,sex,district,household_id,ehr_months_history,last_well_child_or_ifhas_date,days_since_last_preventive,hba1c_trend,bp_trend,weight_for_length_percentile_delta,family_history_flag,consented_genomic_tier,preferred_language,outreach_consent_status,resident_segment,well_child_milestone_due_age_months,milestone_overdue_days,ifhas_overdue_days,chronic_condition_flags,funnel_stage
+R-0001,Hamad 1001,1,male,Rare District Zayed,HH-0001,56,2026-04-16,216,-0.002,-0.007,5.73,False,none,en,opt_in,infant_toddler,36.0,0.0,,,invited
+R-0002,Yusuf 1002,85,female,Rare District Zayed,HH-0002,4,2026-10-11,38,-0.012,0.037,,False,,en,opt_in,elder,,,44.0,,completed
+R-0003,Aisha 1003,56,female,Rare District Zayed,HH-0003,61,2026-08-07,103,0.097,0.017,,False,informational,ar,opt_in,cardiometabolic_adult,,,132.0,,invited
+R-0004,Amna 1004,41,male,Rare District Zayed,HH-0004,0,2026-05-10,192,0.065,-0.039,,False,none,en,unknown,sparse_newcomer,,,58.0,,invited
+R-0005,Zayed 1005,40,female,Rare District Zayed,HH-0005,23,2026-10-08,41,0.129,-0.063,,True,none,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0006,Khalid 1006,0,male,Rare District Zayed,HH-0006,61,2026-03-05,258,0.015,0.022,-4.03,False,none,en,opt_out,infant_toddler,18.0,20.0,,,followup_resolved
+R-0007,Noor 1007,77,male,Yas Island,HH-0007,8,2025-12-12,341,-0.003,0.013,,True,none,ar,opt_in,elder,,,0.0,,
+R-0008,Amna 1008,8,male,Saadiyat,HH-0008,49,2026-05-18,184,-0.058,0.053,1.05,False,none,en,opt_in,child_adolescent,6.0,84.0,,,booked
+R-0009,Maria 1009,62,male,Al Ain,HH-0009,44,2026-01-08,314,0.009,0.064,,False,,tl,opt_in,cardiometabolic_adult,,,116.0,,booked
+R-0010,Zayed 1010,35,female,Al Dhafra,HH-0010,53,2026-07-15,126,0.01,-0.071,,False,informational,ar,opt_in,young_adult,,,0.0,,
+R-0011,Sara 1011,42,male,Abu Dhabi Island,HH-0011,39,2026-05-19,183,0.009,-0.057,,True,actionable,ur,opt_in,cardiometabolic_adult,,,170.0,,
+R-0012,Zayed 1012,15,female,Khalifa City,HH-0012,7,2026-03-11,252,0.055,-0.042,1.88,False,,ur,opt_in,child_adolescent,24.0,0.0,,,completed
+R-0013,Hassan 1013,62,male,Mohammed Bin Zayed City,HH-0013,21,2026-09-25,54,0.117,0.082,,True,none,ar,opt_in,cardiometabolic_adult,,,8.0,,booked
+R-0014,Priya 1014,55,male,Mussafah,HH-0014,2,2026-06-27,144,0.149,0.013,,True,none,ar,opt_in,sparse_newcomer,,,53.0,,completed
+R-0015,Noor 1015,17,male,Al Shamkha,HH-0015,70,2026-07-21,120,0.031,0.011,1.93,False,,ar,opt_in,child_adolescent,18.0,51.0,,,
+R-0016,Daniel 1016,23,male,Yas Island,HH-0016,0,2026-07-21,120,0.025,0.05,,False,none,en,opt_in,young_adult,,,0.0,,completed
+R-0017,Yusuf 1017,30,male,Rare District Zayed,HH-0006,2,2026-02-27,264,0.094,-0.033,,True,,ar,opt_in,sparse_newcomer,,,0.0,,
+R-0018,Daniel 1018,50,female,Al Ain,HH-0018,61,2026-09-26,53,0.181,-0.001,,True,none,ar,opt_in,cardiometabolic_adult,,,182.0,,invited
+R-0019,Maria 1019,18,female,Al Dhafra,HH-0019,23,2026-05-10,192,-0.091,-0.06,,False,none,en,opt_in,young_adult,,,173.0,,followup_resolved
+R-0020,Daniel 1020,23,female,Abu Dhabi Island,HH-0020,2,2026-03-18,245,0.006,0.031,,False,none,ar,opt_in,sparse_newcomer,,,39.0,,
+R-0021,Zayed 1021,3,male,Khalifa City,HH-0021,16,2026-03-23,240,0.0,-0.012,2.07,False,,en,opt_in,infant_toddler,24.0,0.0,,,followup_resolved
+R-0022,Ayesha 1022,19,male,Mohammed Bin Zayed City,HH-0022,26,2026-04-09,223,0.03,0.025,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0023,Priya 1023,14,male,Mussafah,HH-0023,11,2026-07-14,127,0.016,0.002,7.29,False,none,tl,opt_in,child_adolescent,48.0,42.0,,,
+R-0024,Priya 1024,27,male,Al Shamkha,HH-0024,71,2026-03-30,233,-0.006,-0.03,,False,informational,en,opt_in,young_adult,,,0.0,,booked
+R-0025,Maryam 1025,35,female,Yas Island,HH-0025,60,2026-09-09,70,-0.043,0.014,,False,none,en,opt_in,young_adult,,,0.0,,booked
+R-0026,Ayesha 1026,1,male,Saadiyat,HH-0026,54,2025-11-13,370,0.012,-0.016,1.01,True,none,ar,unknown,infant_toddler,24.0,34.0,,,
+R-0027,Maryam 1027,30,male,Al Ain,HH-0027,14,2026-08-05,105,0.001,-0.005,,False,,en,opt_in,young_adult,,,0.0,,completed
+R-0028,James 1028,87,female,Al Dhafra,HH-0028,41,2026-02-09,282,0.073,-0.013,,True,,ar,opt_in,elder,,,26.0,,invited
+R-0029,Sara 1029,5,female,Abu Dhabi Island,HH-0029,25,2026-03-16,247,0.011,0.001,-1.96,False,none,ar,opt_in,infant_toddler,18.0,0.0,,,
+R-0030,Omar 1030,0,female,Khalifa City,HH-0030,68,2026-05-08,194,-0.023,-0.002,3.32,False,actionable,ar,opt_in,infant_toddler,48.0,0.0,,,booked
+R-0031,Noor 1031,17,female,Mohammed Bin Zayed City,HH-0031,63,2026-09-26,53,-0.047,-0.044,0.9,False,informational,ar,opt_in,child_adolescent,6.0,0.0,,,booked
+R-0032,Maria 1032,25,male,Mussafah,HH-0032,6,2026-06-05,166,-0.012,0.042,,False,none,en,opt_in,young_adult,,,122.0,,invited
+R-0033,James 1033,23,female,Al Shamkha,HH-0033,7,2026-01-16,306,0.179,-0.051,,True,none,ar,opt_in,young_adult,,,132.0,,invited
+R-0034,Fatima 1034,69,male,Yas Island,HH-0034,17,2026-03-30,233,0.055,-0.075,,False,,ar,opt_out,elder,,,178.0,,completed
+R-0035,Aisha 1035,5,male,Saadiyat,HH-0035,20,2026-05-01,201,0.066,0.012,0.02,False,none,en,opt_in,infant_toddler,18.0,16.0,,,
+R-0036,Ayesha 1036,43,female,Al Ain,HH-0036,11,2025-11-16,367,-0.117,0.015,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0037,Sara 1037,62,female,Al Dhafra,HH-0037,67,2026-06-28,143,0.199,-0.004,,True,none,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0038,Ali 1038,75,female,Abu Dhabi Island,HH-0038,56,2026-03-07,256,0.044,-0.016,,False,none,en,opt_in,elder,,,0.0,,
+R-0039,Zayed 1039,5,female,Khalifa City,HH-0039,6,2026-02-17,274,0.059,0.072,-1.21,False,,en,opt_in,infant_toddler,36.0,0.0,,,booked
+R-0040,Ahmed 1040,20,male,Mohammed Bin Zayed City,HH-0040,51,2026-07-03,138,0.025,0.0,,False,,ar,opt_in,young_adult,,,0.0,,booked
+R-0041,Yusuf 1041,43,female,Mussafah,HH-0041,4,2026-08-23,87,0.002,-0.011,,False,,ar,opt_in,sparse_newcomer,,,0.0,,followup_resolved
+R-0042,James 1042,4,female,Al Shamkha,HH-0042,69,2026-04-11,221,0.008,-0.02,-0.02,False,none,ar,opt_in,infant_toddler,48.0,0.0,,,completed
+R-0043,Hessa 1043,5,female,Yas Island,HH-0043,43,2025-12-13,340,-0.034,-0.022,2.79,False,,ur,opt_in,infant_toddler,48.0,107.0,,,followup_resolved
+R-0044,Yusuf 1044,0,male,Saadiyat,HH-0044,53,2026-09-28,51,0.018,-0.006,0.6,False,none,ar,opt_in,infant_toddler,24.0,0.0,,,
+R-0045,Priya 1045,5,female,Al Ain,HH-0045,2,2026-06-30,141,-0.037,0.009,9.51,False,none,ar,opt_in,infant_toddler,6.0,105.0,,,followup_resolved
+R-0046,Yusuf 1046,5,female,Al Dhafra,HH-0046,67,2026-09-16,63,-0.011,-0.024,-5.59,True,none,en,opt_in,infant_toddler,12.0,0.0,,,followup_resolved
+R-0047,James 1047,0,male,Abu Dhabi Island,HH-0047,71,2026-02-15,276,0.021,-0.044,4.52,True,actionable,en,opt_in,infant_toddler,48.0,0.0,,,
+R-0048,Imran 1048,2,male,Khalifa City,HH-0048,51,2025-12-31,322,-0.04,0.018,7.38,False,none,ar,opt_in,infant_toddler,12.0,110.0,,,
+R-0049,Imran 1049,83,male,Mohammed Bin Zayed City,HH-0049,53,2025-12-22,331,-0.011,-0.027,,False,informational,ar,opt_in,elder,,,42.0,,booked
+R-0050,Fatima 1050,3,male,Mussafah,HH-0050,18,2026-04-12,220,0.028,0.019,-8.01,False,none,ar,opt_in,infant_toddler,48.0,0.0,,,invited
+R-0051,Ahmed 1051,15,male,Al Shamkha,HH-0051,61,2026-09-16,63,0.163,-0.015,5.89,True,none,en,opt_in,child_adolescent,12.0,0.0,,,completed
+R-0052,Aisha 1052,2,female,Yas Island,HH-0052,51,2025-11-10,373,-0.03,0.006,-3.99,False,actionable,ar,opt_in,infant_toddler,36.0,0.0,,,booked
+R-0053,Khalid 1053,23,male,Saadiyat,HH-0053,0,2026-03-20,243,0.061,0.04,,False,none,ur,opt_in,sparse_newcomer,,,26.0,,booked
+R-0054,Hassan 1054,21,female,Al Ain,HH-0054,21,2026-02-16,275,0.017,-0.004,,False,informational,ur,opt_in,young_adult,,,101.0,,invited
+R-0055,Priya 1055,1,female,Al Dhafra,HH-0055,3,2025-11-11,372,-0.09,-0.048,6.97,True,informational,en,opt_in,infant_toddler,36.0,102.0,,,invited
+R-0056,Noor 1056,68,female,Abu Dhabi Island,HH-0056,71,2026-10-15,34,-0.022,-0.045,,False,none,en,opt_in,elder,,,0.0,,followup_resolved
+R-0057,Ahmed 1057,87,female,Khalifa City,HH-0057,27,2026-05-09,193,0.062,0.051,,True,none,ar,opt_in,elder,,,52.0,,booked
+R-0058,Ahmed 1058,25,male,Mohammed Bin Zayed City,HH-0058,57,2025-11-10,373,-0.032,0.012,,False,none,en,opt_in,young_adult,,,76.0,,
+R-0059,Omar 1059,38,female,Mussafah,HH-0059,27,2026-04-27,205,-0.002,-0.005,,True,informational,ur,opt_in,cardiometabolic_adult,,,153.0,,
+R-0060,Zayed 1060,81,male,Al Shamkha,HH-0060,60,2026-06-08,163,0.015,-0.009,,False,,en,opt_out,elder,,,18.0,,invited
+R-0061,Khalid 1061,17,female,Yas Island,HH-0061,5,2026-07-03,138,0.01,0.034,-1.76,False,,tl,opt_out,sparse_newcomer,60.0,0.0,,,
+R-0062,Priya 1062,5,male,Saadiyat,HH-0062,42,2026-09-24,55,0.049,-0.111,-1.0,False,none,ar,opt_in,infant_toddler,6.0,0.0,,,completed
+R-0063,Zayed 1063,15,female,Al Ain,HH-0063,50,2026-07-13,128,-0.001,-0.063,4.76,False,,ar,opt_in,child_adolescent,6.0,0.0,,,invited
+R-0064,James 1064,5,female,Al Dhafra,HH-0064,15,2026-05-01,201,0.019,0.026,1.08,False,informational,ur,opt_in,infant_toddler,18.0,76.0,,,invited
+R-0065,Daniel 1065,7,female,Abu Dhabi Island,HH-0065,31,2026-06-17,154,0.068,-0.052,3.66,True,none,en,opt_in,child_adolescent,60.0,6.0,,,invited
+R-0066,Elena 1066,0,male,Khalifa City,HH-0066,65,2026-01-03,319,-0.045,0.053,3.45,False,none,ur,opt_in,infant_toddler,24.0,46.0,,,completed
+R-0067,Aisha 1067,39,male,Mohammed Bin Zayed City,HH-0067,70,2026-03-09,254,0.059,0.049,,False,,en,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0068,Amna 1068,9,female,Mussafah,HH-0068,26,2026-01-30,292,0.018,-0.075,-2.69,True,actionable,ar,opt_in,child_adolescent,6.0,0.0,,,followup_resolved
+R-0069,Amna 1069,17,female,Al Shamkha,HH-0069,40,2026-10-20,29,-0.0,0.021,2.78,False,informational,en,opt_in,child_adolescent,60.0,36.0,,,followup_resolved
+R-0070,Hassan 1070,33,female,Yas Island,HH-0070,8,2026-10-04,45,-0.009,-0.008,,False,informational,ar,opt_in,young_adult,,,0.0,,booked
+R-0071,James 1071,29,female,Saadiyat,HH-0071,58,2026-08-11,99,-0.035,-0.065,,True,none,en,opt_in,young_adult,,,151.0,,followup_resolved
+R-0072,Maria 1072,12,female,Al Ain,HH-0072,5,2026-10-13,36,-0.024,-0.013,9.3,False,none,en,opt_in,sparse_newcomer,12.0,7.0,,,invited
+R-0073,Amna 1073,58,male,Al Dhafra,HH-0073,13,2025-12-10,343,-0.034,0.018,,False,none,en,opt_in,cardiometabolic_adult,,,104.0,,booked
+R-0074,Omar 1074,76,female,Abu Dhabi Island,HH-0074,33,2026-06-25,146,-0.09,-0.008,,False,none,ar,opt_in,elder,,,53.0,,
+R-0075,Ayesha 1075,63,female,Khalifa City,HH-0075,28,2026-07-18,123,0.103,0.013,,True,none,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0076,Khalid 1076,81,female,Mohammed Bin Zayed City,HH-0076,17,2026-01-07,315,-0.025,0.053,,False,none,ar,opt_in,elder,,,0.0,,
+R-0077,Ahmed 1077,47,male,Mussafah,HH-0077,12,2026-07-09,132,0.15,-0.029,,True,actionable,ur,unknown,cardiometabolic_adult,,,33.0,,booked
+R-0078,Zayed 1078,2,male,Al Shamkha,HH-0078,64,2026-06-22,149,0.012,0.039,-8.54,False,none,en,opt_in,infant_toddler,24.0,94.0,,,
+R-0079,Imran 1079,21,male,Yas Island,HH-0079,57,2026-02-21,270,-0.004,0.055,,False,,ur,opt_in,young_adult,,,0.0,,booked
+R-0080,Fatima 1080,79,female,Saadiyat,HH-0080,21,2026-01-21,301,-0.025,-0.029,,False,informational,ar,opt_in,elder,,,0.0,,
+R-0081,Juan 1081,62,female,Al Ain,HH-0081,65,2025-10-15,399,0.006,0.029,,False,none,ar,opt_in,cardiometabolic_adult,,,168.0,,completed
+R-0082,Zayed 1082,4,female,Al Dhafra,HH-0082,53,2025-12-18,335,0.022,-0.028,1.38,False,informational,ar,opt_in,infant_toddler,36.0,0.0,,,invited
+R-0083,Layla 1083,22,female,Abu Dhabi Island,HH-0083,13,2026-05-23,179,0.015,0.018,,False,none,ar,opt_out,young_adult,,,0.0,,
+R-0084,Hassan 1084,17,male,Khalifa City,HH-0084,52,2026-05-31,171,-0.009,-0.015,5.43,False,actionable,ar,opt_in,child_adolescent,24.0,46.0,,,
+R-0085,Maryam 1085,1,male,Mohammed Bin Zayed City,HH-0085,9,2025-11-11,372,0.03,0.047,-3.04,False,none,ur,opt_out,infant_toddler,12.0,0.0,,,
+R-0086,Fatima 1086,60,female,Mussafah,HH-0086,61,2025-12-05,348,0.183,-0.071,,True,none,en,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0087,Hamad 1087,47,female,Al Shamkha,HH-0087,0,2026-02-19,272,-0.02,0.051,,False,none,en,opt_in,sparse_newcomer,,,0.0,,invited
+R-0088,Ali 1088,46,male,Yas Island,HH-0088,0,2026-01-31,291,0.072,0.048,,False,,ar,opt_in,sparse_newcomer,,,0.0,,
+R-0089,James 1089,86,male,Saadiyat,HH-0089,43,2026-06-12,159,-0.065,0.04,,False,,en,opt_in,elder,,,0.0,,
+R-0090,Khalid 1090,18,male,Al Ain,HH-0090,23,2026-04-03,229,0.01,-0.006,,False,none,ur,opt_in,young_adult,,,107.0,,booked
+R-0091,Khalid 1091,77,male,Al Dhafra,HH-0091,18,2026-01-26,296,-0.019,0.095,,False,none,ar,opt_in,elder,,,180.0,,booked
+R-0092,Layla 1092,5,male,Abu Dhabi Island,HH-0092,26,2026-01-22,300,-0.091,0.026,4.1,False,none,ar,unknown,infant_toddler,6.0,0.0,,,followup_resolved
+R-0093,Omar 1093,30,female,Khalifa City,HH-0093,66,2026-07-18,123,0.079,0.077,,True,informational,en,opt_in,young_adult,,,66.0,,booked
+R-0094,Ahmed 1094,31,male,Mohammed Bin Zayed City,HH-0094,22,2026-03-04,259,-0.055,-0.008,,False,none,en,opt_in,young_adult,,,0.0,,
+R-0095,Juan 1095,20,male,Mussafah,HH-0095,49,2026-07-03,138,0.036,-0.031,,False,none,ur,opt_in,young_adult,,,26.0,,booked
+R-0096,Daniel 1096,1,male,Al Shamkha,HH-0096,20,2026-05-19,183,0.091,-0.006,-3.11,True,none,ar,opt_in,infant_toddler,36.0,10.0,,,
+R-0097,Layla 1097,60,male,Yas Island,HH-0097,59,2025-10-30,384,0.132,0.058,,True,none,en,opt_out,cardiometabolic_adult,,,0.0,,invited
+R-0098,Omar 1098,3,male,Saadiyat,HH-0098,33,2026-03-24,239,-0.074,-0.013,-0.03,False,none,en,opt_in,infant_toddler,12.0,43.0,,,followup_resolved
+R-0099,Amna 1099,64,male,Al Ain,HH-0099,12,2026-06-07,164,-0.0,0.002,,True,none,tl,opt_in,cardiometabolic_adult,,,0.0,,
+R-0100,Maryam 1100,24,female,Al Dhafra,HH-0100,4,2025-10-17,397,0.031,0.049,,False,,en,opt_in,sparse_newcomer,,,0.0,,invited
+R-0101,Sara 1101,23,male,Abu Dhabi Island,HH-0101,32,2025-10-20,394,0.017,0.023,,False,,en,opt_in,young_adult,,,0.0,,booked
+R-0102,Hassan 1102,2,female,Khalifa City,HH-0102,30,2026-07-03,138,-0.015,0.026,-8.15,False,informational,ar,opt_in,infant_toddler,24.0,0.0,,,
+R-0103,Ali 1103,4,female,Mohammed Bin Zayed City,HH-0103,4,2025-12-29,324,0.085,0.012,2.62,True,none,ur,opt_in,infant_toddler,6.0,16.0,,,
+R-0104,Ali 1104,34,male,Mussafah,HH-0104,14,2026-08-24,86,0.072,0.057,,False,none,ar,opt_in,young_adult,,,0.0,,invited
+R-0105,Aisha 1105,2,female,Al Shamkha,HH-0105,51,2026-04-10,222,0.066,-0.045,-6.24,True,none,ar,opt_in,infant_toddler,36.0,0.0,,,
+R-0106,James 1106,25,male,Yas Island,HH-0106,40,2025-11-12,371,0.001,0.006,,False,informational,tl,opt_out,young_adult,,,9.0,,followup_resolved
+R-0107,Ali 1107,41,female,Saadiyat,HH-0107,39,2026-10-16,33,-0.044,0.041,,True,,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0108,Layla 1108,17,male,Al Ain,HH-0108,69,2025-10-26,388,0.064,-0.001,-3.45,True,none,ar,opt_in,child_adolescent,12.0,95.0,,,followup_resolved
+R-0109,Daniel 1109,0,male,Al Dhafra,HH-0109,18,2026-04-11,221,0.01,-0.071,10.28,False,,en,opt_in,infant_toddler,12.0,90.0,,,completed
+R-0110,Daniel 1110,6,male,Abu Dhabi Island,HH-0110,32,2026-08-27,83,0.019,0.01,-1.08,False,none,ar,opt_in,child_adolescent,6.0,0.0,,,invited
+R-0111,Hassan 1111,27,female,Khalifa City,HH-0111,0,2026-07-03,138,0.173,0.02,,True,none,ar,opt_in,sparse_newcomer,,,141.0,,
+R-0112,Omar 1112,13,male,Mohammed Bin Zayed City,HH-0112,54,2026-06-27,144,0.016,0.012,0.93,False,none,en,opt_out,child_adolescent,48.0,0.0,,,followup_resolved
+R-0113,Zayed 1113,82,female,Mussafah,HH-0113,3,2026-04-13,219,-0.004,-0.044,,False,none,en,opt_in,elder,,,55.0,,followup_resolved
+R-0114,Maria 1114,49,female,Al Shamkha,HH-0114,1,2026-09-18,61,0.019,0.001,,True,actionable,ar,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0115,Khalid 1115,60,female,Yas Island,HH-0115,29,2025-12-10,343,0.005,0.029,,True,actionable,ar,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0116,Khalid 1116,1,female,Saadiyat,HH-0116,21,2026-02-02,289,0.031,-0.049,1.99,False,none,ar,opt_in,infant_toddler,36.0,0.0,,,booked
+R-0117,Ali 1117,2,male,Al Ain,HH-0117,9,2026-08-12,98,0.146,-0.012,-5.79,True,,ar,opt_out,infant_toddler,36.0,0.0,,,
+R-0118,Maryam 1118,9,female,Al Dhafra,HH-0118,54,2026-08-07,103,-0.086,-0.037,-5.14,False,informational,ar,opt_in,child_adolescent,48.0,33.0,,,completed
+R-0119,Maria 1119,41,male,Abu Dhabi Island,HH-0119,25,2025-11-11,372,0.025,0.005,,False,none,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0120,Elena 1120,4,male,Khalifa City,HH-0120,35,2026-10-03,46,0.056,-0.042,12.93,False,,ar,opt_in,infant_toddler,24.0,99.0,,,
+R-0121,Fatima 1121,74,female,Mohammed Bin Zayed City,HH-0121,33,2026-07-28,113,0.009,0.031,,False,none,ar,opt_in,elder,,,0.0,,
+R-0122,Sara 1122,28,male,Mussafah,HH-0122,0,2026-04-08,224,-0.015,0.013,,False,none,en,opt_in,sparse_newcomer,,,0.0,,invited
+R-0123,Hessa 1123,3,male,Al Shamkha,HH-0123,12,2026-07-08,133,-0.015,0.005,11.38,False,none,ar,opt_in,infant_toddler,12.0,11.0,,,
+R-0124,Ali 1124,10,male,Yas Island,HH-0124,67,2026-07-30,111,0.052,0.025,-2.98,True,informational,ar,opt_in,child_adolescent,18.0,0.0,,,followup_resolved
+R-0125,Priya 1125,34,female,Saadiyat,HH-0125,23,2026-06-23,148,0.019,0.02,,False,none,ar,opt_in,young_adult,,,16.0,,
+R-0126,Layla 1126,28,female,Al Ain,HH-0126,47,2025-11-27,356,0.08,0.022,,False,,ar,opt_in,young_adult,,,22.0,,
+R-0127,Amna 1127,10,female,Al Dhafra,HH-0127,13,2026-08-24,86,0.024,0.043,-2.16,False,informational,en,opt_out,child_adolescent,18.0,0.0,,,completed
+R-0128,Hessa 1128,2,female,Abu Dhabi Island,HH-0128,4,2026-04-12,220,-0.026,-0.059,0.06,False,none,en,opt_in,infant_toddler,60.0,13.0,,,completed
+R-0129,Imran 1129,13,male,Khalifa City,HH-0129,60,2026-10-01,48,0.073,0.063,1.11,True,actionable,ur,opt_in,child_adolescent,24.0,44.0,,,
+R-0130,Maryam 1130,43,male,Mohammed Bin Zayed City,HH-0130,21,2026-03-25,238,-0.03,-0.002,,True,none,ur,opt_in,cardiometabolic_adult,,,134.0,,invited
+R-0131,Aisha 1131,49,female,Mussafah,HH-0131,6,2026-07-05,136,-0.031,0.006,,False,none,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0132,Ayesha 1132,1,male,Al Shamkha,HH-0132,59,2026-04-29,203,-0.051,0.075,8.36,False,,en,opt_in,infant_toddler,48.0,33.0,,,invited
+R-0133,Hamad 1133,28,male,Yas Island,HH-0133,22,2026-09-15,64,0.039,-0.063,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0134,Priya 1134,4,male,Saadiyat,HH-0134,0,2026-10-14,35,-0.017,0.015,13.68,True,,en,opt_in,infant_toddler,36.0,105.0,,,
+R-0135,Priya 1135,17,male,Al Ain,HH-0135,68,2026-10-19,30,-0.011,0.017,-1.15,False,none,ar,opt_in,child_adolescent,6.0,0.0,,,
+R-0136,Noor 1136,61,female,Al Dhafra,HH-0136,26,2026-08-18,92,-0.062,0.01,,False,,ar,opt_in,cardiometabolic_adult,,,132.0,,followup_resolved
+R-0137,Maryam 1137,58,female,Abu Dhabi Island,HH-0137,24,2026-01-21,301,0.077,-0.007,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,completed
+R-0138,Khalid 1138,15,male,Khalifa City,HH-0138,28,2025-12-29,324,-0.04,-0.014,4.84,False,informational,en,opt_in,child_adolescent,24.0,80.0,,,
+R-0139,Fatima 1139,0,male,Mohammed Bin Zayed City,HH-0139,9,2026-10-13,36,0.02,-0.028,14.1,False,,en,opt_in,infant_toddler,48.0,42.0,,,booked
+R-0140,James 1140,15,male,Mussafah,HH-0140,33,2026-07-06,135,0.028,-0.066,4.49,False,none,en,opt_in,child_adolescent,12.0,0.0,,,booked
+R-0141,Ali 1141,19,female,Al Shamkha,HH-0141,3,2026-01-17,305,-0.028,-0.035,,False,none,ar,opt_in,young_adult,,,0.0,,invited
+R-0142,Maria 1142,5,male,Yas Island,HH-0142,62,2026-06-06,165,-0.025,0.025,4.44,False,actionable,ur,opt_in,infant_toddler,36.0,32.0,,,invited
+R-0143,James 1143,1,female,Saadiyat,HH-0143,26,2026-06-15,156,0.168,-0.041,-0.07,True,informational,en,opt_in,infant_toddler,12.0,0.0,,,followup_resolved
+R-0144,Amna 1144,28,female,Al Ain,HH-0144,13,2026-10-20,29,0.03,0.033,,False,,en,opt_in,young_adult,,,0.0,,followup_resolved
+R-0145,Yusuf 1145,30,male,Al Dhafra,HH-0145,51,2026-07-23,118,0.004,0.04,,False,actionable,ar,opt_in,young_adult,,,0.0,,
+R-0146,Hessa 1146,12,male,Abu Dhabi Island,HH-0146,0,2025-10-17,397,-0.017,0.013,2.65,False,none,ur,opt_in,sparse_newcomer,12.0,66.0,,,booked
+R-0147,Priya 1147,12,male,Khalifa City,HH-0147,44,2026-04-17,215,0.108,0.004,0.87,True,none,ar,opt_in,child_adolescent,6.0,0.0,,,followup_resolved
+R-0148,Yusuf 1148,46,female,Mohammed Bin Zayed City,HH-0148,44,2026-07-07,134,-0.022,0.049,,False,informational,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0149,Hamad 1149,11,male,Mussafah,HH-0149,44,2026-02-17,274,0.005,-0.023,11.89,False,none,en,opt_in,child_adolescent,12.0,0.0,,,invited
+R-0150,Imran 1150,20,male,Al Shamkha,HH-0150,44,2025-11-11,372,0.076,0.027,,False,,ar,opt_in,young_adult,,,4.0,,
+R-0151,Hamad 1151,2,female,Rare District Zayed,HH-0001,6,2026-06-05,166,0.025,0.025,-3.48,True,none,ar,opt_in,infant_toddler,36.0,26.0,,,completed
+R-0152,Amna 1152,26,female,Rare District Zayed,HH-0002,7,2026-09-13,66,-0.004,-0.017,,False,none,en,opt_in,young_adult,,,163.0,,
+R-0153,Ayesha 1153,68,female,Rare District Zayed,HH-0003,35,2026-04-05,227,0.067,0.045,,False,,en,opt_in,elder,,,0.0,,booked
+R-0154,Fatima 1154,24,female,Rare District Zayed,HH-0004,24,2025-10-17,397,0.015,-0.033,,False,informational,en,opt_in,young_adult,,,0.0,,completed
+R-0155,Hessa 1155,24,male,Rare District Zayed,HH-0005,14,2025-10-18,396,0.056,0.012,,False,none,en,opt_in,young_adult,,,0.0,,followup_resolved
+R-0156,Ahmed 1156,41,male,Rare District Zayed,HH-0006,30,2026-10-13,36,0.094,-0.004,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,completed
+R-0157,Ali 1157,53,male,Yas Island,HH-0007,5,2026-07-14,127,-0.0,0.037,,False,none,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0158,Aisha 1158,80,male,Saadiyat,HH-0008,57,2026-10-06,43,0.059,-0.033,,False,informational,ar,opt_in,elder,,,129.0,,invited
+R-0159,Ayesha 1159,63,male,Al Ain,HH-0009,16,2025-10-20,394,0.174,0.024,,True,,en,opt_in,cardiometabolic_adult,,,166.0,,completed
+R-0160,Maryam 1160,1,female,Al Dhafra,HH-0010,16,2025-12-31,322,0.138,-0.023,0.65,True,none,en,opt_in,infant_toddler,60.0,57.0,,,invited
+R-0161,Sara 1161,4,female,Abu Dhabi Island,HH-0011,29,2025-12-15,338,0.057,-0.019,8.69,False,none,en,opt_in,infant_toddler,48.0,45.0,,,invited
+R-0162,James 1162,20,male,Khalifa City,HH-0012,1,2025-12-14,339,-0.059,0.006,,False,none,en,opt_in,sparse_newcomer,,,0.0,,booked
+R-0163,Ayesha 1163,1,male,Mohammed Bin Zayed City,HH-0013,7,2026-10-08,41,-0.034,0.034,1.98,False,,ar,opt_in,infant_toddler,18.0,0.0,,,followup_resolved
+R-0164,Ayesha 1164,3,male,Mussafah,HH-0014,32,2025-12-25,328,-0.006,0.003,12.79,False,,ar,opt_in,infant_toddler,60.0,57.0,,,
+R-0165,Ayesha 1165,15,male,Al Shamkha,HH-0015,7,2026-07-09,132,0.074,-0.051,-1.48,False,none,en,unknown,child_adolescent,12.0,0.0,,,booked
+R-0166,Juan 1166,16,male,Yas Island,HH-0016,61,2026-06-24,147,-0.071,0.041,-3.41,True,none,ar,opt_in,child_adolescent,48.0,0.0,,,
+R-0167,Zayed 1167,41,male,Saadiyat,HH-0017,62,2026-05-19,183,0.194,0.03,,True,actionable,tl,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0168,Maryam 1168,43,male,Al Ain,HH-0018,15,2026-09-19,60,-0.01,-0.007,,False,none,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0169,Ali 1169,69,female,Al Dhafra,HH-0019,56,2026-01-17,305,0.043,0.015,,False,none,en,opt_in,elder,,,72.0,,invited
+R-0170,Hamad 1170,74,male,Abu Dhabi Island,HH-0020,29,2026-07-06,135,0.027,0.022,,False,none,en,opt_in,elder,,,0.0,,invited
+R-0171,Ali 1171,39,female,Khalifa City,HH-0021,60,2026-06-01,170,0.116,-0.025,,True,actionable,en,opt_in,cardiometabolic_adult,,,22.0,,
+R-0172,Zayed 1172,1,male,Mohammed Bin Zayed City,HH-0022,6,2026-05-09,193,0.074,0.077,7.14,True,none,tl,opt_in,infant_toddler,24.0,67.0,,,followup_resolved
+R-0173,Imran 1173,47,male,Mussafah,HH-0023,14,2026-09-21,58,0.044,0.023,,True,none,en,opt_in,cardiometabolic_adult,,,12.0,,invited
+R-0174,Layla 1174,0,male,Al Shamkha,HH-0024,8,2026-05-15,187,0.143,-0.014,-3.29,True,informational,en,opt_in,infant_toddler,48.0,8.0,,,booked
+R-0175,Aisha 1175,24,male,Yas Island,HH-0025,41,2026-08-20,90,-0.027,-0.043,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0176,Noor 1176,55,male,Saadiyat,HH-0026,1,2026-09-21,58,0.012,0.02,,False,none,ar,opt_out,sparse_newcomer,,,0.0,,invited
+R-0177,Elena 1177,1,female,Al Ain,HH-0027,24,2026-07-05,136,-0.035,0.032,11.33,False,actionable,ar,opt_in,infant_toddler,12.0,0.0,,,invited
+R-0178,Hamad 1178,1,male,Al Dhafra,HH-0028,18,2026-09-20,59,-0.089,0.014,-1.94,False,,ar,opt_in,infant_toddler,60.0,0.0,,,
+R-0179,Imran 1179,14,female,Abu Dhabi Island,HH-0029,17,2025-11-10,373,0.011,-0.054,-2.7,False,none,en,opt_in,child_adolescent,12.0,0.0,,,
+R-0180,Hamad 1180,17,male,Khalifa City,HH-0030,46,2026-03-22,241,0.185,0.001,-1.61,True,informational,en,opt_in,child_adolescent,12.0,97.0,,,booked
+R-0181,Sara 1181,44,male,Mohammed Bin Zayed City,HH-0031,17,2026-10-04,45,0.18,0.005,,True,none,en,opt_in,cardiometabolic_adult,,,98.0,,completed
+R-0182,Elena 1182,24,female,Mussafah,HH-0032,4,2026-09-11,68,0.189,-0.002,,True,informational,en,opt_in,young_adult,,,0.0,,booked
+R-0183,Hamad 1183,42,female,Al Shamkha,HH-0033,70,2026-02-16,275,0.146,-0.053,,True,none,ar,opt_in,cardiometabolic_adult,,,186.0,,booked
+R-0184,Ahmed 1184,43,female,Yas Island,HH-0034,9,2026-08-05,105,0.033,-0.013,,True,,en,opt_in,cardiometabolic_adult,,,43.0,,completed
+R-0185,James 1185,65,female,Saadiyat,HH-0035,65,2026-10-05,44,0.094,-0.014,,True,none,en,opt_in,elder,,,133.0,,invited
+R-0186,Ali 1186,21,male,Al Ain,HH-0036,57,2025-11-15,368,0.06,0.016,,False,,ar,opt_in,young_adult,,,0.0,,
+R-0187,Juan 1187,9,male,Al Dhafra,HH-0037,15,2026-08-24,86,0.16,0.006,-4.92,True,,en,opt_in,child_adolescent,36.0,0.0,,,booked
+R-0188,Noor 1188,0,male,Abu Dhabi Island,HH-0038,11,2025-10-15,399,0.156,-0.036,3.56,True,informational,ur,opt_in,infant_toddler,12.0,112.0,,,followup_resolved
+R-0189,Fatima 1189,51,female,Khalifa City,HH-0039,7,2026-04-25,207,0.176,0.083,,True,actionable,en,opt_in,cardiometabolic_adult,,,23.0,,completed
+R-0190,Fatima 1190,4,female,Mohammed Bin Zayed City,HH-0040,24,2026-11-08,10,0.198,-0.019,-1.87,True,none,tl,opt_in,infant_toddler,18.0,62.0,,,booked
+R-0191,Fatima 1191,4,male,Mussafah,HH-0041,16,2026-10-02,47,-0.041,-0.021,-2.63,False,informational,ur,opt_in,infant_toddler,24.0,0.0,,,
+R-0192,Yusuf 1192,18,male,Al Shamkha,HH-0042,36,2025-12-26,327,0.049,0.065,,True,informational,ar,opt_in,young_adult,,,114.0,,
+R-0193,Aisha 1193,17,male,Yas Island,HH-0043,4,2026-07-31,110,-0.029,0.015,2.23,False,none,ur,opt_in,sparse_newcomer,24.0,81.0,,,
+R-0194,Khalid 1194,70,female,Saadiyat,HH-0044,4,2026-03-09,254,-0.008,0.121,,False,actionable,ar,opt_in,elder,,,0.0,,
+R-0195,Ayesha 1195,5,male,Al Ain,HH-0045,19,2026-07-19,122,-0.024,-0.031,-3.64,False,none,ar,opt_in,infant_toddler,36.0,101.0,,,
+R-0196,Yusuf 1196,12,female,Al Dhafra,HH-0046,11,2026-08-06,104,-0.037,-0.048,1.36,False,,en,opt_in,child_adolescent,12.0,0.0,,,completed
+R-0197,Zayed 1197,15,female,Abu Dhabi Island,HH-0047,8,2025-10-26,388,0.028,-0.055,8.78,False,none,en,opt_in,child_adolescent,18.0,8.0,,,
+R-0198,Sara 1198,2,female,Khalifa City,HH-0048,35,2026-08-27,83,0.041,-0.017,4.23,False,none,en,opt_in,infant_toddler,18.0,115.0,,,
+R-0199,Ali 1199,3,female,Mohammed Bin Zayed City,HH-0049,45,2026-02-22,269,0.028,-0.041,-2.19,False,actionable,ar,opt_in,infant_toddler,6.0,55.0,,,booked
+R-0200,Juan 1200,4,female,Mussafah,HH-0050,17,2026-05-03,199,-0.003,0.025,1.02,False,,ar,opt_in,infant_toddler,18.0,0.0,,,booked
+R-0201,Hessa 1201,45,male,Al Shamkha,HH-0051,5,2026-04-15,217,0.062,-0.034,,True,,ar,opt_in,cardiometabolic_adult,,,0.0,,completed
+R-0202,Priya 1202,3,male,Yas Island,HH-0052,43,2026-10-03,46,0.133,0.066,3.86,True,none,ur,opt_in,infant_toddler,48.0,0.0,,,
+R-0203,Hamad 1203,12,male,Saadiyat,HH-0053,26,2026-09-08,71,-0.015,-0.077,4.33,False,actionable,ar,opt_in,child_adolescent,36.0,0.0,,,invited
+R-0204,Daniel 1204,44,male,Al Ain,HH-0054,25,2026-04-02,230,-0.054,0.043,,False,none,ar,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0205,Noor 1205,74,female,Al Dhafra,HH-0055,9,2026-04-17,215,-0.018,0.006,,False,,ur,opt_in,elder,,,2.0,,
+R-0206,Daniel 1206,63,male,Abu Dhabi Island,HH-0056,34,2025-11-14,369,0.026,-0.007,,False,none,ar,opt_in,cardiometabolic_adult,,,125.0,,followup_resolved
+R-0207,Fatima 1207,54,male,Khalifa City,HH-0057,2,2025-12-12,341,0.031,0.036,,False,,en,opt_out,cardiometabolic_adult,,,43.0,,completed
+R-0208,Yusuf 1208,5,male,Mohammed Bin Zayed City,HH-0058,26,2026-08-02,108,0.179,-0.014,8.7,True,none,ur,opt_in,infant_toddler,48.0,3.0,,,invited
+R-0209,James 1209,39,female,Mussafah,HH-0059,3,2026-02-12,279,-0.108,-0.025,,False,,en,opt_in,sparse_newcomer,,,0.0,,
+R-0210,Priya 1210,29,male,Al Shamkha,HH-0060,4,2026-08-27,83,0.012,0.005,,False,none,ar,opt_in,sparse_newcomer,,,48.0,,booked
+R-0211,Elena 1211,59,female,Yas Island,HH-0061,40,2026-09-07,72,0.1,-0.027,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0212,Yusuf 1212,10,female,Saadiyat,HH-0062,21,2025-12-25,328,-0.074,-0.02,2.4,False,,ur,opt_in,child_adolescent,24.0,0.0,,,booked
+R-0213,Hessa 1213,48,male,Al Ain,HH-0063,65,2026-04-03,229,-0.062,-0.002,,True,none,en,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0214,Hamad 1214,4,male,Al Dhafra,HH-0064,24,2026-06-09,162,0.113,0.015,-0.46,False,,en,opt_in,infant_toddler,60.0,13.0,,,booked
+R-0215,Elena 1215,17,male,Abu Dhabi Island,HH-0065,17,2025-10-26,388,0.077,0.079,-2.61,False,,ar,opt_in,child_adolescent,60.0,22.0,,,
+R-0216,Maryam 1216,2,female,Khalifa City,HH-0066,27,2025-12-17,336,0.029,0.058,-6.33,False,none,en,opt_in,infant_toddler,24.0,35.0,,,completed
+R-0217,Layla 1217,44,male,Mohammed Bin Zayed City,HH-0067,38,2025-11-28,355,0.054,-0.076,,False,informational,ur,opt_in,cardiometabolic_adult,,,141.0,,
+R-0218,Layla 1218,20,female,Mussafah,HH-0068,37,2025-11-07,376,0.046,0.001,,False,none,ur,opt_in,young_adult,,,0.0,,followup_resolved
+R-0219,Juan 1219,9,male,Al Shamkha,HH-0069,58,2026-04-02,230,-0.011,0.01,-0.95,False,none,en,opt_in,child_adolescent,48.0,47.0,,,booked
+R-0220,Maryam 1220,0,male,Yas Island,HH-0070,5,2026-03-09,254,-0.007,0.018,-4.76,False,none,en,opt_in,infant_toddler,18.0,0.0,,,
+R-0221,Priya 1221,4,female,Saadiyat,HH-0071,34,2025-10-15,399,0.095,0.002,10.51,True,,ar,opt_in,infant_toddler,48.0,0.0,,,booked
+R-0222,Sara 1222,2,male,Al Ain,HH-0072,23,2025-11-16,367,0.038,-0.013,1.41,False,,en,opt_in,infant_toddler,36.0,0.0,,,booked
+R-0223,Omar 1223,81,male,Al Dhafra,HH-0073,14,2026-02-19,272,-0.03,0.023,,False,none,en,opt_in,elder,,,65.0,,completed
+R-0224,Maryam 1224,19,male,Abu Dhabi Island,HH-0074,15,2026-03-02,261,-0.033,0.029,,False,none,en,opt_in,young_adult,,,77.0,,
+R-0225,Hassan 1225,47,male,Khalifa City,HH-0075,54,2026-07-16,125,0.187,-0.024,,True,actionable,ur,opt_in,cardiometabolic_adult,,,122.0,,
+R-0226,Noor 1226,1,female,Mohammed Bin Zayed City,HH-0076,30,2025-10-26,388,-0.022,-0.002,-4.09,False,informational,ar,opt_in,infant_toddler,18.0,0.0,,,
+R-0227,Omar 1227,23,male,Mussafah,HH-0077,0,2026-09-03,76,-0.056,0.058,,False,none,ar,opt_in,young_adult,,,23.0,,booked
+R-0228,Fatima 1228,54,male,Al Shamkha,HH-0078,6,2025-10-18,396,0.005,-0.074,,True,none,en,opt_in,cardiometabolic_adult,,,102.0,,
+R-0229,Hessa 1229,15,male,Yas Island,HH-0079,2,2026-08-29,81,0.029,0.048,-3.7,False,,en,opt_in,sparse_newcomer,48.0,0.0,,,completed
+R-0230,Amna 1230,77,female,Saadiyat,HH-0080,52,2025-12-24,329,-0.004,-0.026,,False,none,ur,opt_in,elder,,,0.0,,
+R-0231,Juan 1231,35,male,Al Ain,HH-0081,1,2026-01-03,319,0.16,-0.009,,True,,ar,opt_out,sparse_newcomer,,,105.0,,
+R-0232,Juan 1232,1,female,Al Dhafra,HH-0082,53,2026-04-23,209,0.023,-0.077,0.55,False,none,ar,opt_in,infant_toddler,12.0,0.0,,,
+R-0233,Khalid 1233,32,male,Abu Dhabi Island,HH-0083,4,2026-08-14,96,-0.042,0.011,,False,none,en,opt_in,young_adult,,,0.0,,invited
+R-0234,Hamad 1234,50,female,Khalifa City,HH-0084,50,2026-09-29,50,-0.028,-0.007,,False,none,ur,unknown,cardiometabolic_adult,,,193.0,,
+R-0235,Yusuf 1235,7,male,Mohammed Bin Zayed City,HH-0085,0,2026-08-14,96,0.019,0.027,2.39,False,none,ar,opt_in,child_adolescent,6.0,33.0,,,
+R-0236,Amna 1236,8,female,Mussafah,HH-0086,19,2026-11-01,17,0.115,0.009,3.74,True,informational,ar,opt_in,child_adolescent,24.0,0.0,,,booked
+R-0237,Amna 1237,32,male,Al Shamkha,HH-0087,60,2026-09-28,51,-0.027,-0.019,,False,none,ar,opt_out,young_adult,,,121.0,,invited
+R-0238,Ahmed 1238,79,male,Yas Island,HH-0088,56,2026-05-31,171,-0.011,-0.025,,False,none,ar,opt_in,elder,,,44.0,,booked
+R-0239,Yusuf 1239,12,male,Saadiyat,HH-0089,46,2025-11-27,356,0.012,0.024,-7.15,False,,ar,opt_in,child_adolescent,24.0,0.0,,,completed
+R-0240,Daniel 1240,21,female,Al Ain,HH-0090,48,2026-02-06,285,-0.037,-0.036,,False,actionable,en,opt_in,young_adult,,,26.0,,booked
+R-0241,Elena 1241,14,female,Al Dhafra,HH-0091,33,2026-09-06,73,-0.019,0.062,14.58,True,informational,en,opt_in,child_adolescent,6.0,82.0,,,followup_resolved
+R-0242,Aisha 1242,1,male,Abu Dhabi Island,HH-0092,2,2025-12-20,333,0.039,-0.105,-2.99,False,,ar,opt_in,infant_toddler,60.0,76.0,,,
+R-0243,Ayesha 1243,12,female,Khalifa City,HH-0093,13,2026-01-17,305,0.007,0.062,-1.7,False,,en,opt_in,child_adolescent,36.0,0.0,,,invited
+R-0244,Hessa 1244,16,female,Mohammed Bin Zayed City,HH-0094,12,2026-07-13,128,-0.007,-0.031,-4.5,False,none,en,opt_in,child_adolescent,60.0,0.0,,,completed
+R-0245,Ayesha 1245,19,male,Mussafah,HH-0095,9,2026-01-04,318,0.003,-0.093,,False,none,en,opt_in,young_adult,,,17.0,,
+R-0246,Priya 1246,38,female,Al Shamkha,HH-0096,59,2026-08-26,84,-0.016,0.016,,True,none,ur,opt_in,cardiometabolic_adult,,,67.0,,
+R-0247,Khalid 1247,66,male,Yas Island,HH-0097,42,2026-02-21,270,0.001,-0.041,,False,,ar,opt_in,elder,,,48.0,,invited
+R-0248,Ali 1248,7,female,Saadiyat,HH-0098,13,2026-05-24,178,0.129,-0.03,-1.95,True,informational,en,opt_in,child_adolescent,36.0,115.0,,,booked
+R-0249,Maryam 1249,2,female,Al Ain,HH-0099,0,2026-06-16,155,0.026,0.027,7.16,False,actionable,ar,opt_in,infant_toddler,24.0,0.0,,,
+R-0250,Hassan 1250,5,female,Al Dhafra,HH-0100,32,2026-03-02,261,0.146,-0.01,9.69,True,informational,ar,opt_in,infant_toddler,48.0,0.0,,,
+R-0251,Maria 1251,62,male,Abu Dhabi Island,HH-0101,18,2026-04-09,223,0.03,0.014,,True,actionable,en,opt_in,cardiometabolic_adult,,,10.0,,invited
+R-0252,Priya 1252,29,male,Khalifa City,HH-0102,65,2026-01-11,311,0.028,0.049,,False,none,ar,opt_in,young_adult,,,19.0,,completed
+R-0253,Noor 1253,11,female,Mohammed Bin Zayed City,HH-0103,48,2025-11-13,370,0.039,-0.025,0.1,False,none,ar,opt_in,child_adolescent,24.0,54.0,,,
+R-0254,Juan 1254,60,male,Mussafah,HH-0104,8,2026-06-07,164,0.157,0.009,,True,,ur,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0255,Ahmed 1255,36,female,Rare District Zayed,HH-0003,4,2026-06-03,168,0.018,0.048,,False,none,ar,opt_in,sparse_newcomer,,,28.0,,followup_resolved
+R-0256,Juan 1256,1,male,Yas Island,HH-0106,38,2026-02-20,271,0.036,0.011,-2.6,True,actionable,en,opt_out,infant_toddler,12.0,97.0,,,
+R-0257,Ali 1257,36,male,Saadiyat,HH-0107,1,2025-11-20,363,-0.005,0.06,,False,none,en,opt_in,sparse_newcomer,,,0.0,,completed
+R-0258,Noor 1258,3,female,Al Ain,HH-0108,62,2026-03-24,239,-0.049,-0.018,2.54,False,,en,opt_in,infant_toddler,60.0,0.0,,,completed
+R-0259,Ahmed 1259,50,male,Al Dhafra,HH-0109,65,2026-10-20,29,0.134,-0.006,,True,none,ar,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0260,Ahmed 1260,25,female,Abu Dhabi Island,HH-0110,18,2026-01-06,316,0.035,0.029,,False,none,en,opt_in,young_adult,,,0.0,,followup_resolved
+R-0261,Imran 1261,0,female,Khalifa City,HH-0111,5,2026-02-22,269,-0.009,-0.006,-0.3,True,informational,en,unknown,infant_toddler,24.0,77.0,,,booked
+R-0262,Elena 1262,1,female,Mohammed Bin Zayed City,HH-0112,71,2026-09-19,60,-0.001,-0.033,0.31,False,none,en,opt_out,infant_toddler,24.0,0.0,,,
+R-0263,Maria 1263,59,female,Mussafah,HH-0113,12,2026-10-12,37,0.017,-0.009,,False,none,ar,opt_out,cardiometabolic_adult,,,100.0,,
+R-0264,Omar 1264,61,female,Al Shamkha,HH-0114,7,2025-12-13,340,-0.026,0.022,,True,actionable,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0265,Fatima 1265,28,female,Yas Island,HH-0115,40,2026-06-30,141,0.091,0.04,,True,none,ur,opt_in,young_adult,,,0.0,,
+R-0266,Aisha 1266,17,female,Saadiyat,HH-0116,40,2026-02-12,279,0.138,0.011,-4.04,False,,en,opt_in,child_adolescent,6.0,0.0,,,invited
+R-0267,Hassan 1267,26,male,Al Ain,HH-0117,30,2026-07-29,112,-0.034,-0.027,,False,,ar,opt_in,young_adult,,,195.0,,completed
+R-0268,Elena 1268,14,female,Al Dhafra,HH-0118,5,2026-04-27,205,-0.041,-0.004,-0.9,False,none,ar,opt_in,child_adolescent,60.0,82.0,,,completed
+R-0269,Aisha 1269,0,male,Abu Dhabi Island,HH-0119,54,2026-09-20,59,-0.031,0.048,1.64,False,none,ar,opt_in,infant_toddler,48.0,0.0,,,
+R-0270,Elena 1270,53,male,Khalifa City,HH-0120,67,2026-09-09,70,-0.04,0.051,,True,actionable,ar,opt_in,cardiometabolic_adult,,,128.0,,booked
+R-0271,Maryam 1271,5,male,Mohammed Bin Zayed City,HH-0121,38,2026-08-03,107,-0.014,0.001,10.98,False,none,en,opt_in,infant_toddler,36.0,0.0,,,completed
+R-0272,Juan 1272,9,female,Mussafah,HH-0122,32,2026-03-12,251,-0.048,-0.028,6.49,False,,en,opt_in,child_adolescent,48.0,0.0,,,booked
+R-0273,Layla 1273,2,male,Al Shamkha,HH-0123,60,2026-03-01,262,0.077,0.026,6.16,True,actionable,en,opt_in,infant_toddler,60.0,108.0,,,booked
+R-0274,Hamad 1274,24,male,Yas Island,HH-0124,68,2026-01-29,293,-0.011,-0.017,,True,,en,unknown,young_adult,,,16.0,,invited
+R-0275,Priya 1275,23,male,Saadiyat,HH-0125,1,2025-11-26,357,-0.027,-0.019,,False,none,ar,opt_in,sparse_newcomer,,,29.0,,invited
+R-0276,Hamad 1276,13,female,Al Ain,HH-0126,3,2026-01-28,294,-0.102,0.032,-1.51,False,,ar,opt_in,sparse_newcomer,12.0,28.0,,,booked
+R-0277,Hamad 1277,68,female,Al Dhafra,HH-0127,41,2026-07-29,112,0.051,0.003,,False,none,ar,opt_in,elder,,,0.0,,completed
+R-0278,James 1278,15,female,Abu Dhabi Island,HH-0128,53,2026-01-11,311,0.084,0.013,0.04,True,informational,ar,opt_in,child_adolescent,24.0,0.0,,,invited
+R-0279,Yusuf 1279,4,female,Khalifa City,HH-0129,20,2026-11-08,10,0.004,-0.06,-3.79,False,none,ar,opt_in,infant_toddler,18.0,58.0,,,
+R-0280,Priya 1280,36,male,Mohammed Bin Zayed City,HH-0130,57,2025-12-19,334,0.183,0.006,,True,actionable,ur,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0281,Imran 1281,2,female,Mussafah,HH-0131,20,2026-04-06,226,0.004,-0.059,2.08,False,actionable,ar,opt_in,infant_toddler,6.0,0.0,,,invited
+R-0282,Fatima 1282,54,female,Al Shamkha,HH-0132,29,2026-02-22,269,-0.087,0.039,,True,,ar,opt_in,cardiometabolic_adult,,,60.0,,invited
+R-0283,Ayesha 1283,0,male,Yas Island,HH-0133,26,2026-04-13,219,0.078,0.013,-0.53,True,informational,ar,opt_in,infant_toddler,36.0,0.0,,,invited
+R-0284,Khalid 1284,17,male,Saadiyat,HH-0134,37,2026-01-22,300,0.01,0.003,-4.3,False,,en,opt_in,child_adolescent,6.0,32.0,,,invited
+R-0285,Hassan 1285,65,female,Al Ain,HH-0135,9,2025-12-08,345,0.01,-0.002,,False,none,ar,opt_in,elder,,,0.0,,
+R-0286,Elena 1286,54,female,Al Dhafra,HH-0136,31,2025-10-22,392,0.054,0.046,,False,none,en,opt_in,cardiometabolic_adult,,,72.0,,
+R-0287,Omar 1287,30,male,Abu Dhabi Island,HH-0137,48,2026-01-12,310,-0.066,0.021,,False,none,ur,opt_in,young_adult,,,0.0,,
+R-0288,Layla 1288,2,female,Khalifa City,HH-0138,29,2025-10-19,395,0.004,-0.043,-8.63,False,none,en,opt_in,infant_toddler,12.0,62.0,,,
+R-0289,Daniel 1289,30,male,Mohammed Bin Zayed City,HH-0139,62,2026-01-12,310,-0.025,-0.011,,False,none,en,opt_in,young_adult,,,93.0,,booked
+R-0290,Priya 1290,17,female,Mussafah,HH-0140,54,2025-11-14,369,0.012,-0.03,-1.26,False,none,ar,opt_in,child_adolescent,36.0,38.0,,,
+R-0291,Zayed 1291,4,male,Al Shamkha,HH-0141,48,2026-01-22,300,0.002,-0.026,-0.17,False,,en,opt_in,infant_toddler,60.0,0.0,,,
+R-0292,Sara 1292,41,male,Yas Island,HH-0142,62,2026-05-23,179,-0.086,0.01,,False,informational,en,opt_in,cardiometabolic_adult,,,33.0,,completed
+R-0293,Layla 1293,34,female,Saadiyat,HH-0143,15,2026-09-10,69,-0.037,0.024,,False,,ar,opt_in,young_adult,,,177.0,,invited
+R-0294,Hamad 1294,27,male,Al Ain,HH-0144,20,2026-08-17,93,0.098,0.013,,True,,ar,opt_in,young_adult,,,0.0,,booked
+R-0295,Imran 1295,1,female,Al Dhafra,HH-0145,61,2026-06-29,142,0.012,-0.044,10.26,True,none,ar,opt_in,infant_toddler,12.0,46.0,,,completed
+R-0296,Aisha 1296,30,male,Abu Dhabi Island,HH-0146,0,2026-01-04,318,-0.027,-0.028,,False,none,ur,opt_in,sparse_newcomer,,,26.0,,booked
+R-0297,Juan 1297,6,female,Khalifa City,HH-0147,46,2025-12-27,326,0.076,0.02,2.58,True,none,ar,opt_in,child_adolescent,18.0,108.0,,,followup_resolved
+R-0298,Ayesha 1298,5,female,Mohammed Bin Zayed City,HH-0148,24,2026-01-16,306,0.015,-0.036,1.25,False,none,ar,opt_in,infant_toddler,48.0,119.0,,,invited
+R-0299,Imran 1299,33,male,Mussafah,HH-0149,30,2026-06-05,166,0.06,-0.068,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0300,Ahmed 1300,23,female,Al Shamkha,HH-0150,31,2026-09-04,75,-0.014,0.013,,False,none,ar,opt_in,young_adult,,,0.0,,invited
+R-0301,Ali 1301,28,female,Rare District Zayed,HH-0001,30,2026-05-18,184,0.145,-0.017,,True,none,ar,opt_in,young_adult,,,194.0,,followup_resolved
+R-0302,Maryam 1302,20,female,Rare District Zayed,HH-0002,24,2026-06-13,158,0.169,0.034,,True,,ar,opt_in,young_adult,,,22.0,,invited
+R-0303,Hassan 1303,0,male,Rare District Zayed,HH-0003,28,2025-12-05,348,-0.024,0.061,-12.57,False,actionable,ar,opt_out,infant_toddler,60.0,0.0,,,invited
+R-0304,Amna 1304,61,male,Rare District Zayed,HH-0004,36,2026-09-07,72,0.04,0.017,,False,none,en,opt_in,cardiometabolic_adult,,,105.0,,invited
+R-0305,Aisha 1305,0,female,Rare District Zayed,HH-0005,56,2026-10-10,39,0.035,0.052,2.27,False,none,tl,opt_out,infant_toddler,24.0,38.0,,,booked
+R-0306,Aisha 1306,9,female,Rare District Zayed,HH-0006,9,2026-02-15,276,-0.038,-0.044,5.28,True,none,en,opt_in,child_adolescent,48.0,32.0,,,
+R-0307,Ali 1307,18,female,Yas Island,HH-0007,4,2026-01-28,294,-0.03,-0.005,,False,none,ur,opt_in,sparse_newcomer,,,0.0,,
+R-0308,Hessa 1308,42,male,Saadiyat,HH-0008,17,2025-11-21,362,0.017,-0.014,,False,none,ar,opt_in,cardiometabolic_adult,,,0.0,,completed
+R-0309,Ayesha 1309,45,male,Al Ain,HH-0009,0,2026-02-15,276,0.183,-0.11,,True,,ar,opt_in,sparse_newcomer,,,145.0,,invited
+R-0310,Hamad 1310,21,female,Al Dhafra,HH-0010,0,2026-02-26,265,-0.016,-0.0,,False,none,ar,opt_out,sparse_newcomer,,,0.0,,booked
+R-0311,Hamad 1311,11,female,Abu Dhabi Island,HH-0011,39,2026-07-23,118,0.149,-0.07,1.01,True,none,ar,opt_in,child_adolescent,6.0,109.0,,,booked
+R-0312,Daniel 1312,81,male,Khalifa City,HH-0012,21,2026-04-06,226,0.012,0.064,,False,informational,en,opt_in,elder,,,0.0,,completed
+R-0313,Fatima 1313,33,female,Mohammed Bin Zayed City,HH-0013,7,2026-02-10,281,0.026,-0.009,,False,none,en,opt_in,young_adult,,,0.0,,invited
+R-0314,Hassan 1314,21,male,Mussafah,HH-0014,51,2026-01-03,319,-0.062,-0.053,,False,none,ur,opt_in,young_adult,,,181.0,,booked
+R-0315,Sara 1315,26,female,Al Shamkha,HH-0015,15,2026-10-24,25,0.034,-0.018,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0316,Yusuf 1316,57,male,Yas Island,HH-0016,19,2026-08-26,84,-0.023,-0.003,,False,none,en,opt_in,cardiometabolic_adult,,,88.0,,booked
+R-0317,Ayesha 1317,1,female,Saadiyat,HH-0017,56,2026-06-20,151,-0.023,0.03,11.36,False,none,en,opt_in,infant_toddler,60.0,87.0,,,booked
+R-0318,Maryam 1318,13,female,Al Ain,HH-0018,20,2026-01-23,299,0.082,0.048,-6.46,True,informational,en,opt_in,child_adolescent,60.0,118.0,,,
+R-0319,Hamad 1319,70,female,Al Dhafra,HH-0019,1,2026-07-07,134,-0.008,0.081,,True,actionable,ar,opt_in,elder,,,0.0,,completed
+R-0320,Khalid 1320,8,male,Abu Dhabi Island,HH-0020,7,2025-11-18,365,-0.036,-0.013,2.03,False,informational,ar,opt_in,child_adolescent,36.0,58.0,,,booked
+R-0321,Layla 1321,33,female,Khalifa City,HH-0021,47,2026-03-21,242,0.021,-0.044,,False,informational,en,opt_in,young_adult,,,193.0,,
+R-0322,Imran 1322,53,female,Mohammed Bin Zayed City,HH-0022,4,2026-02-28,263,-0.059,-0.044,,False,,ar,opt_in,sparse_newcomer,,,0.0,,invited
+R-0323,Imran 1323,12,male,Mussafah,HH-0023,69,2026-05-22,180,0.031,-0.038,0.73,False,,ar,opt_in,child_adolescent,18.0,0.0,,,completed
+R-0324,Hessa 1324,19,male,Al Shamkha,HH-0024,3,2026-08-08,102,0.011,0.039,,False,none,ar,opt_in,young_adult,,,6.0,,
+R-0325,Aisha 1325,2,male,Yas Island,HH-0025,43,2026-08-11,99,0.021,-0.015,2.73,True,,en,opt_in,infant_toddler,60.0,0.0,,,
+R-0326,Aisha 1326,28,female,Saadiyat,HH-0026,12,2026-05-23,179,0.055,0.014,,False,none,en,opt_in,young_adult,,,0.0,,
+R-0327,Imran 1327,42,male,Al Ain,HH-0027,32,2026-03-14,249,-0.036,-0.027,,False,,ar,opt_in,cardiometabolic_adult,,,7.0,,invited
+R-0328,Sara 1328,63,male,Al Dhafra,HH-0028,71,2026-05-30,172,-0.11,-0.018,,True,,en,opt_in,cardiometabolic_adult,,,169.0,,completed
+R-0329,Ali 1329,42,female,Abu Dhabi Island,HH-0029,40,2025-12-01,352,-0.02,0.033,,True,actionable,en,opt_out,cardiometabolic_adult,,,0.0,,
+R-0330,Juan 1330,6,male,Khalifa City,HH-0030,66,2025-11-03,380,0.017,0.009,-1.03,False,none,ar,opt_in,child_adolescent,6.0,0.0,,,followup_resolved
+R-0331,Maria 1331,62,female,Mohammed Bin Zayed City,HH-0031,66,2026-09-01,78,-0.037,-0.02,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0332,Hamad 1332,52,male,Mussafah,HH-0032,5,2026-01-12,310,0.033,0.05,,False,,ar,opt_in,sparse_newcomer,,,9.0,,invited
+R-0333,Aisha 1333,3,female,Al Shamkha,HH-0033,70,2025-10-18,396,0.036,-0.042,-7.23,False,,en,opt_in,infant_toddler,24.0,0.0,,,
+R-0334,Zayed 1334,31,female,Yas Island,HH-0034,12,2026-03-18,245,0.003,0.001,,False,informational,en,opt_in,young_adult,,,0.0,,completed
+R-0335,Hessa 1335,23,male,Saadiyat,HH-0035,1,2026-07-09,132,-0.019,-0.002,,True,,ar,opt_in,young_adult,,,0.0,,completed
+R-0336,Zayed 1336,8,female,Al Ain,HH-0036,39,2025-12-18,335,0.195,-0.029,-0.88,True,informational,ur,opt_in,child_adolescent,12.0,19.0,,,invited
+R-0337,James 1337,70,female,Al Dhafra,HH-0037,27,2026-10-12,37,-0.041,-0.035,,False,informational,en,opt_in,elder,,,51.0,,
+R-0338,Elena 1338,14,female,Abu Dhabi Island,HH-0038,1,2026-08-20,90,0.101,0.032,0.04,True,,ar,opt_in,sparse_newcomer,18.0,0.0,,,booked
+R-0339,Khalid 1339,26,male,Khalifa City,HH-0039,30,2026-08-22,88,0.003,-0.037,,True,actionable,ur,opt_in,young_adult,,,0.0,,invited
+R-0340,Priya 1340,25,female,Mohammed Bin Zayed City,HH-0040,71,2026-02-28,263,-0.019,0.043,,False,none,ur,opt_out,young_adult,,,178.0,,invited
+R-0341,Noor 1341,49,male,Mussafah,HH-0041,68,2025-12-11,342,0.026,-0.035,,False,,en,unknown,cardiometabolic_adult,,,176.0,,followup_resolved
+R-0342,Juan 1342,1,female,Al Shamkha,HH-0042,68,2026-08-23,87,0.089,0.029,-7.56,False,actionable,en,opt_in,infant_toddler,12.0,0.0,,,followup_resolved
+R-0343,Hessa 1343,54,female,Yas Island,HH-0043,17,2026-01-24,298,0.12,-0.043,,True,actionable,ar,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0344,Omar 1344,41,female,Saadiyat,HH-0044,0,2025-11-16,367,-0.047,-0.024,,False,none,ar,opt_in,sparse_newcomer,,,114.0,,booked
+R-0345,Juan 1345,43,female,Al Ain,HH-0045,66,2026-03-26,237,0.03,-0.022,,True,none,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0346,Noor 1346,3,male,Al Dhafra,HH-0046,62,2026-06-15,156,0.002,-0.011,1.57,False,informational,en,opt_out,infant_toddler,6.0,0.0,,,booked
+R-0347,Aisha 1347,34,female,Abu Dhabi Island,HH-0047,46,2026-06-20,151,-0.007,0.034,,False,,ar,opt_in,young_adult,,,25.0,,completed
+R-0348,Zayed 1348,36,female,Khalifa City,HH-0048,22,2025-12-22,331,0.158,0.059,,True,,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0349,Khalid 1349,0,female,Mohammed Bin Zayed City,HH-0049,56,2026-06-04,167,0.03,-0.03,-0.42,False,informational,ar,opt_in,infant_toddler,24.0,0.0,,,
+R-0350,Aisha 1350,4,male,Mussafah,HH-0050,18,2026-08-22,88,0.036,0.012,-6.1,True,none,ar,opt_in,infant_toddler,48.0,0.0,,,booked
+R-0351,Amna 1351,44,female,Al Shamkha,HH-0051,33,2026-05-15,187,-0.002,0.025,,True,,tl,opt_in,cardiometabolic_adult,,,55.0,,booked
+R-0352,Zayed 1352,5,female,Yas Island,HH-0052,0,2026-05-20,182,-0.007,-0.001,-3.93,False,none,en,opt_in,infant_toddler,18.0,13.0,,,followup_resolved
+R-0353,Zayed 1353,57,female,Saadiyat,HH-0053,17,2025-12-21,332,0.081,-0.033,,True,none,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0354,Maria 1354,29,female,Al Ain,HH-0054,46,2026-02-14,277,0.133,0.008,,True,actionable,ar,opt_in,young_adult,,,158.0,,
+R-0355,Ahmed 1355,3,female,Al Dhafra,HH-0055,68,2026-10-17,32,0.184,0.035,3.97,True,none,ur,opt_out,infant_toddler,6.0,39.0,,,
+R-0356,Imran 1356,38,male,Abu Dhabi Island,HH-0056,5,2026-02-23,268,0.071,0.03,,False,none,ar,opt_in,sparse_newcomer,,,108.0,,
+R-0357,Omar 1357,80,female,Khalifa City,HH-0057,36,2026-06-29,142,-0.01,0.04,,True,none,ar,opt_in,elder,,,178.0,,
+R-0358,Aisha 1358,26,female,Mohammed Bin Zayed City,HH-0058,14,2025-10-22,392,-0.057,-0.065,,False,informational,en,opt_in,young_adult,,,105.0,,followup_resolved
+R-0359,Imran 1359,5,female,Mussafah,HH-0059,22,2025-11-29,354,0.0,0.009,-1.25,False,,en,opt_in,infant_toddler,48.0,73.0,,,
+R-0360,Ali 1360,0,male,Al Shamkha,HH-0060,69,2026-05-23,179,0.038,-0.01,5.44,False,none,ar,opt_in,infant_toddler,36.0,0.0,,,booked
+R-0361,James 1361,41,male,Yas Island,HH-0061,62,2026-07-13,128,-0.043,0.041,,True,actionable,ar,opt_in,cardiometabolic_adult,,,8.0,,completed
+R-0362,Aisha 1362,10,female,Saadiyat,HH-0062,2,2025-12-07,346,0.006,-0.008,-6.41,False,none,en,opt_in,sparse_newcomer,6.0,0.0,,,followup_resolved
+R-0363,Ali 1363,69,female,Al Ain,HH-0063,40,2025-11-06,377,-0.006,-0.043,,False,none,en,opt_out,elder,,,0.0,,invited
+R-0364,Juan 1364,1,female,Al Dhafra,HH-0064,41,2026-06-01,170,-0.042,-0.035,1.89,True,none,ar,opt_in,infant_toddler,6.0,0.0,,,booked
+R-0365,Priya 1365,23,male,Abu Dhabi Island,HH-0065,62,2026-08-12,98,-0.039,-0.029,,True,none,en,opt_in,young_adult,,,0.0,,booked
+R-0366,Ahmed 1366,53,male,Khalifa City,HH-0066,5,2026-10-16,33,0.139,-0.038,,True,none,ar,opt_in,cardiometabolic_adult,,,29.0,,completed
+R-0367,Ahmed 1367,6,male,Mohammed Bin Zayed City,HH-0067,27,2026-01-12,310,0.032,-0.04,-1.61,False,informational,ar,opt_in,child_adolescent,36.0,119.0,,,followup_resolved
+R-0368,Hamad 1368,4,female,Mussafah,HH-0068,57,2026-01-23,299,-0.002,0.007,-0.15,False,none,en,opt_in,infant_toddler,18.0,56.0,,,booked
+R-0369,Imran 1369,78,female,Al Shamkha,HH-0069,62,2026-08-11,99,-0.003,0.067,,False,none,ur,opt_in,elder,,,15.0,,booked
+R-0370,Hassan 1370,8,female,Yas Island,HH-0070,59,2026-11-03,15,0.065,0.1,10.81,False,actionable,ur,opt_out,child_adolescent,36.0,0.0,,,
+R-0371,Amna 1371,2,female,Saadiyat,HH-0071,59,2025-10-30,384,0.045,-0.003,-1.37,True,actionable,tl,opt_in,infant_toddler,48.0,0.0,,,
+R-0372,Noor 1372,7,male,Al Ain,HH-0072,16,2025-10-16,398,0.003,0.007,3.13,False,actionable,ar,opt_out,child_adolescent,60.0,3.0,,,
+R-0373,James 1373,44,male,Al Dhafra,HH-0073,9,2026-02-16,275,0.015,-0.004,,False,,en,opt_in,cardiometabolic_adult,,,113.0,,completed
+R-0374,Hassan 1374,44,male,Abu Dhabi Island,HH-0074,64,2026-11-07,11,0.145,0.001,,True,actionable,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0375,Maria 1375,36,female,Khalifa City,HH-0075,3,2026-06-27,144,0.061,-0.111,,True,,ur,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0376,Omar 1376,72,female,Mohammed Bin Zayed City,HH-0076,16,2026-02-21,270,0.045,-0.08,,False,none,ur,opt_in,elder,,,16.0,,completed
+R-0377,Priya 1377,57,male,Mussafah,HH-0077,56,2025-12-27,326,0.0,0.007,,True,none,en,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0378,Ali 1378,48,male,Al Shamkha,HH-0078,52,2026-04-02,230,-0.012,-0.013,,True,none,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0379,Daniel 1379,4,female,Yas Island,HH-0079,24,2026-06-25,146,-0.036,0.072,6.13,True,none,en,opt_in,infant_toddler,24.0,0.0,,,
+R-0380,Daniel 1380,47,male,Saadiyat,HH-0080,1,2026-10-02,47,0.139,-0.04,,True,,en,opt_out,sparse_newcomer,,,0.0,,
+R-0381,Hessa 1381,5,female,Al Ain,HH-0081,69,2026-01-06,316,0.006,0.032,13.39,False,,ar,opt_in,infant_toddler,48.0,107.0,,,booked
+R-0382,Hessa 1382,0,male,Al Dhafra,HH-0082,71,2026-02-19,272,-0.074,0.018,5.48,False,none,ar,opt_in,infant_toddler,18.0,24.0,,,
+R-0383,Maryam 1383,3,male,Abu Dhabi Island,HH-0083,70,2026-07-22,119,0.013,0.045,8.35,True,none,en,opt_in,infant_toddler,12.0,0.0,,,completed
+R-0384,Ayesha 1384,3,male,Khalifa City,HH-0084,1,2026-09-14,65,-0.004,0.006,13.18,False,actionable,en,opt_in,infant_toddler,48.0,6.0,,,
+R-0385,Daniel 1385,56,female,Mohammed Bin Zayed City,HH-0085,69,2026-04-07,225,-0.011,-0.061,,False,none,ar,opt_in,cardiometabolic_adult,,,77.0,,booked
+R-0386,Ali 1386,65,female,Mussafah,HH-0086,22,2026-04-04,228,-0.018,0.045,,False,informational,ar,opt_in,elder,,,0.0,,
+R-0387,Layla 1387,22,male,Al Shamkha,HH-0087,1,2026-08-07,103,0.045,-0.012,,False,none,en,opt_in,young_adult,,,0.0,,
+R-0388,Ahmed 1388,22,male,Yas Island,HH-0088,38,2026-06-18,153,-0.017,0.011,,False,none,en,opt_in,young_adult,,,71.0,,
+R-0389,Aisha 1389,75,female,Saadiyat,HH-0089,48,2026-10-08,41,0.101,-0.016,,False,actionable,ar,opt_in,elder,,,0.0,,completed
+R-0390,Elena 1390,44,female,Al Ain,HH-0090,27,2026-05-07,195,-0.011,-0.0,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,booked
+R-0391,Juan 1391,30,female,Al Dhafra,HH-0091,26,2026-04-14,218,-0.034,-0.011,,False,none,en,opt_in,young_adult,,,28.0,,completed
+R-0392,Sara 1392,35,male,Abu Dhabi Island,HH-0092,4,2026-03-21,242,-0.066,-0.011,,True,none,en,opt_out,sparse_newcomer,,,127.0,,booked
+R-0393,Aisha 1393,44,female,Khalifa City,HH-0093,3,2025-10-18,396,0.045,-0.014,,False,none,ar,opt_out,sparse_newcomer,,,0.0,,completed
+R-0394,Khalid 1394,7,female,Mohammed Bin Zayed City,HH-0094,62,2026-04-01,231,0.001,-0.009,6.19,False,actionable,ar,opt_in,child_adolescent,60.0,68.0,,,invited
+R-0395,Elena 1395,47,female,Mussafah,HH-0095,32,2025-12-23,330,0.002,-0.035,,True,actionable,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0396,Zayed 1396,2,female,Al Shamkha,HH-0096,2,2026-08-08,102,0.068,0.108,1.81,False,none,en,opt_in,infant_toddler,48.0,0.0,,,
+R-0397,Hassan 1397,9,male,Yas Island,HH-0097,5,2026-10-20,29,0.14,0.031,-0.08,True,actionable,ar,opt_in,child_adolescent,6.0,0.0,,,completed
+R-0398,Omar 1398,12,female,Saadiyat,HH-0098,35,2026-10-26,23,-0.072,0.017,12.83,False,none,en,opt_in,child_adolescent,48.0,35.0,,,booked
+R-0399,Ahmed 1399,82,male,Al Ain,HH-0099,14,2026-01-30,292,0.114,0.049,,True,,ar,unknown,elder,,,0.0,,invited
+R-0400,Elena 1400,66,female,Al Dhafra,HH-0100,54,2026-04-15,217,0.069,-0.022,,True,informational,ar,opt_in,elder,,,176.0,,invited
+R-0401,Juan 1401,0,female,Abu Dhabi Island,HH-0101,7,2026-07-19,122,0.01,-0.013,-1.98,False,none,ar,opt_in,infant_toddler,18.0,95.0,,,
+R-0402,James 1402,20,male,Khalifa City,HH-0102,19,2026-03-15,248,-0.119,0.022,,False,none,en,opt_in,young_adult,,,0.0,,invited
+R-0403,James 1403,44,female,Mohammed Bin Zayed City,HH-0103,39,2026-05-17,185,-0.06,0.043,,False,actionable,ur,opt_in,cardiometabolic_adult,,,82.0,,booked
+R-0404,Ahmed 1404,43,female,Mussafah,HH-0104,3,2025-10-22,392,-0.088,0.014,,False,none,ar,opt_in,sparse_newcomer,,,163.0,,invited
+R-0405,Fatima 1405,18,male,Al Shamkha,HH-0105,2,2026-03-13,250,0.085,-0.002,,False,,en,opt_in,young_adult,,,142.0,,
+R-0406,Layla 1406,33,female,Yas Island,HH-0106,38,2026-05-03,199,-0.048,0.08,,True,actionable,en,opt_in,young_adult,,,0.0,,
+R-0407,Imran 1407,21,male,Saadiyat,HH-0107,27,2026-06-07,164,0.135,0.066,,True,informational,en,opt_in,young_adult,,,55.0,,invited
+R-0408,Elena 1408,25,female,Al Ain,HH-0108,32,2026-10-21,28,-0.036,0.082,,False,none,ar,opt_out,young_adult,,,5.0,,completed
+R-0409,Hassan 1409,26,female,Al Dhafra,HH-0109,31,2026-06-24,147,-0.027,0.009,,False,actionable,ar,opt_in,young_adult,,,0.0,,
+R-0410,James 1410,58,female,Abu Dhabi Island,HH-0110,18,2025-11-08,375,0.07,0.012,,True,,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0411,Ali 1411,31,male,Khalifa City,HH-0111,0,2026-02-01,290,-0.019,-0.017,,False,,en,opt_in,sparse_newcomer,,,14.0,,
+R-0412,Juan 1412,28,female,Mohammed Bin Zayed City,HH-0112,28,2026-01-29,293,0.072,-0.006,,True,informational,en,opt_in,young_adult,,,0.0,,followup_resolved
+R-0413,Juan 1413,77,female,Mussafah,HH-0113,26,2025-11-26,357,-0.002,0.038,,False,none,en,opt_in,elder,,,0.0,,followup_resolved
+R-0414,Maria 1414,71,female,Al Shamkha,HH-0114,67,2026-04-28,204,0.159,0.071,,True,none,ar,opt_in,elder,,,88.0,,followup_resolved
+R-0415,Imran 1415,16,male,Yas Island,HH-0115,10,2026-10-14,35,0.083,0.053,2.68,False,none,en,opt_in,child_adolescent,24.0,0.0,,,booked
+R-0416,Hamad 1416,48,female,Saadiyat,HH-0116,1,2026-07-27,114,0.034,-0.078,,False,,ar,opt_in,sparse_newcomer,,,0.0,,completed
+R-0417,Yusuf 1417,35,male,Al Ain,HH-0117,65,2026-06-01,170,-0.009,-0.018,,False,none,en,opt_in,young_adult,,,0.0,,
+R-0418,Hamad 1418,33,female,Al Dhafra,HH-0118,35,2026-09-29,50,-0.008,-0.003,,False,,ur,opt_in,young_adult,,,0.0,,invited
+R-0419,Elena 1419,1,male,Abu Dhabi Island,HH-0119,14,2026-05-14,188,0.125,-0.0,3.98,True,none,en,opt_out,infant_toddler,60.0,58.0,,,booked
+R-0420,Hassan 1420,25,female,Khalifa City,HH-0120,54,2026-04-20,212,-0.027,-0.005,,False,,en,opt_in,young_adult,,,77.0,,booked
+R-0421,Amna 1421,20,male,Mohammed Bin Zayed City,HH-0121,33,2026-01-03,319,0.045,-0.001,,True,informational,ar,opt_in,young_adult,,,0.0,,
+R-0422,Omar 1422,35,male,Mussafah,HH-0122,9,2026-08-18,92,-0.023,0.009,,False,actionable,ar,opt_in,young_adult,,,0.0,,booked
+R-0423,Ali 1423,5,female,Al Shamkha,HH-0123,44,2026-04-17,215,-0.003,-0.008,9.55,False,none,ar,opt_in,infant_toddler,18.0,100.0,,,booked
+R-0424,Hessa 1424,51,female,Yas Island,HH-0124,3,2026-08-05,105,0.025,-0.046,,False,,ar,opt_in,sparse_newcomer,,,0.0,,invited
+R-0425,Yusuf 1425,36,male,Saadiyat,HH-0125,49,2026-10-18,31,-0.075,-0.05,,False,informational,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0426,Hessa 1426,40,male,Al Ain,HH-0126,53,2026-10-23,26,-0.07,-0.014,,False,informational,en,unknown,cardiometabolic_adult,,,0.0,,booked
+R-0427,Khalid 1427,12,female,Al Dhafra,HH-0127,8,2026-07-30,111,0.039,-0.055,-0.25,False,none,ur,opt_in,child_adolescent,18.0,68.0,,,booked
+R-0428,Imran 1428,11,male,Abu Dhabi Island,HH-0128,1,2026-02-26,265,-0.065,-0.073,0.66,False,informational,ur,opt_in,child_adolescent,36.0,10.0,,,booked
+R-0429,Ali 1429,12,male,Khalifa City,HH-0129,63,2025-11-23,360,0.126,0.0,4.75,True,actionable,en,opt_in,child_adolescent,60.0,91.0,,,
+R-0430,Khalid 1430,10,male,Mohammed Bin Zayed City,HH-0130,21,2026-06-22,149,-0.014,0.068,10.62,True,none,ar,opt_in,child_adolescent,6.0,39.0,,,
+R-0431,James 1431,11,male,Mussafah,HH-0131,8,2025-11-12,371,-0.016,-0.036,2.74,False,none,en,opt_in,child_adolescent,48.0,0.0,,,completed
+R-0432,Aisha 1432,1,female,Al Shamkha,HH-0132,6,2025-12-16,337,0.192,0.047,1.54,True,actionable,ar,opt_in,infant_toddler,48.0,0.0,,,booked
+R-0433,Khalid 1433,44,male,Yas Island,HH-0133,1,2026-02-09,282,0.07,0.003,,False,none,tl,unknown,sparse_newcomer,,,0.0,,booked
+R-0434,Elena 1434,4,male,Saadiyat,HH-0134,17,2026-08-31,79,-0.002,0.059,2.56,False,none,ar,opt_in,infant_toddler,48.0,53.0,,,
+R-0435,Zayed 1435,64,female,Al Ain,HH-0135,64,2026-07-27,114,0.036,0.044,,True,actionable,ar,opt_in,cardiometabolic_adult,,,123.0,,
+R-0436,Maryam 1436,50,female,Al Dhafra,HH-0136,51,2026-09-05,74,0.032,0.013,,False,none,en,opt_in,cardiometabolic_adult,,,4.0,,invited
+R-0437,James 1437,0,female,Abu Dhabi Island,HH-0137,14,2025-11-19,364,0.003,-0.049,3.88,True,none,ar,opt_in,infant_toddler,24.0,82.0,,,completed
+R-0438,Khalid 1438,30,female,Khalifa City,HH-0138,46,2026-10-30,19,-0.084,-0.022,,False,,ar,opt_out,young_adult,,,157.0,,
+R-0439,Hamad 1439,31,male,Mohammed Bin Zayed City,HH-0139,47,2026-04-27,205,-0.031,0.04,,False,none,ar,opt_in,young_adult,,,0.0,,completed
+R-0440,Fatima 1440,9,male,Mussafah,HH-0140,9,2026-02-01,290,0.03,0.007,5.0,False,informational,ar,opt_in,child_adolescent,48.0,0.0,,,invited
+R-0441,Juan 1441,14,male,Al Shamkha,HH-0141,0,2026-09-14,65,0.009,0.043,-4.59,False,none,en,opt_in,sparse_newcomer,60.0,0.0,,,completed
+R-0442,Omar 1442,19,male,Yas Island,HH-0142,26,2026-05-15,187,-0.012,0.046,,False,informational,en,unknown,young_adult,,,112.0,,
+R-0443,Aisha 1443,2,female,Saadiyat,HH-0143,33,2026-05-23,179,-0.001,0.068,4.22,False,informational,en,opt_in,infant_toddler,24.0,5.0,,,booked
+R-0444,Ahmed 1444,2,female,Al Ain,HH-0144,32,2026-06-09,162,-0.07,0.018,8.48,False,none,en,opt_out,infant_toddler,18.0,59.0,,,completed
+R-0445,Omar 1445,2,male,Al Dhafra,HH-0145,7,2025-11-16,367,0.146,0.023,5.95,True,actionable,en,opt_in,infant_toddler,36.0,0.0,,,
+R-0446,Fatima 1446,41,female,Abu Dhabi Island,HH-0146,4,2025-12-15,338,0.069,0.031,,False,none,en,opt_out,sparse_newcomer,,,0.0,,booked
+R-0447,Fatima 1447,3,male,Khalifa City,HH-0147,22,2026-06-21,150,-0.054,-0.006,2.57,False,,ar,opt_in,infant_toddler,24.0,0.0,,,invited
+R-0448,Juan 1448,3,male,Mohammed Bin Zayed City,HH-0148,20,2026-06-13,158,-0.024,-0.006,0.33,False,none,en,opt_in,infant_toddler,36.0,85.0,,,booked
+R-0449,Hessa 1449,45,male,Mussafah,HH-0149,10,2026-03-07,256,-0.053,0.003,,True,none,en,opt_in,cardiometabolic_adult,,,4.0,,followup_resolved
+R-0450,Noor 1450,55,male,Al Shamkha,HH-0150,30,2026-03-07,256,0.196,-0.039,,True,actionable,en,opt_out,cardiometabolic_adult,,,79.0,,
+R-0451,Ali 1451,31,male,Rare District Zayed,HH-0001,3,2026-01-29,293,-0.004,-0.029,,False,,ar,opt_in,sparse_newcomer,,,0.0,,
+R-0452,Daniel 1452,22,male,Rare District Zayed,HH-0002,45,2026-01-29,293,-0.026,-0.005,,False,,ar,opt_in,young_adult,,,0.0,,followup_resolved
+R-0453,Layla 1453,46,female,Rare District Zayed,HH-0003,71,2026-05-11,191,0.187,0.073,,True,actionable,ar,opt_in,cardiometabolic_adult,,,99.0,,invited
+R-0454,James 1454,27,male,Rare District Zayed,HH-0004,50,2026-10-23,26,-0.053,0.065,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0455,Amna 1455,0,male,Rare District Zayed,HH-0005,69,2026-09-27,52,0.01,-0.076,-3.97,False,actionable,en,opt_in,infant_toddler,60.0,0.0,,,
+R-0456,Imran 1456,35,female,Rare District Zayed,HH-0006,4,2026-09-30,49,-0.069,0.037,,False,informational,en,opt_in,young_adult,,,4.0,,invited
+R-0457,James 1457,45,male,Yas Island,HH-0007,19,2026-01-22,300,-0.031,0.059,,False,,en,opt_out,cardiometabolic_adult,,,0.0,,booked
+R-0458,Omar 1458,73,female,Saadiyat,HH-0008,50,2026-03-22,241,-0.032,0.024,,False,none,ar,opt_out,elder,,,0.0,,followup_resolved
+R-0459,Yusuf 1459,23,female,Al Ain,HH-0009,29,2026-01-31,291,-0.014,-0.025,,False,none,ar,opt_in,young_adult,,,0.0,,invited
+R-0460,Juan 1460,14,male,Al Dhafra,HH-0010,20,2026-03-21,242,0.062,0.046,-3.08,False,none,en,opt_in,child_adolescent,48.0,0.0,,,invited
+R-0461,Hessa 1461,20,male,Abu Dhabi Island,HH-0011,1,2025-11-19,364,0.014,-0.029,,False,none,en,opt_in,sparse_newcomer,,,162.0,,booked
+R-0462,Maryam 1462,59,male,Khalifa City,HH-0012,40,2026-02-07,284,0.027,-0.018,,True,none,tl,unknown,cardiometabolic_adult,,,0.0,,
+R-0463,Zayed 1463,2,female,Mohammed Bin Zayed City,HH-0013,55,2026-08-26,84,-0.005,-0.04,8.32,False,none,en,opt_in,infant_toddler,36.0,38.0,,,invited
+R-0464,Priya 1464,34,male,Mussafah,HH-0014,62,2026-10-05,44,0.037,-0.046,,False,none,ar,opt_in,young_adult,,,0.0,,invited
+R-0465,Elena 1465,3,male,Al Shamkha,HH-0015,5,2026-06-07,164,-0.106,-0.123,6.24,False,actionable,ar,opt_in,infant_toddler,48.0,104.0,,,
+R-0466,Yusuf 1466,70,male,Yas Island,HH-0016,37,2026-02-22,269,0.148,0.09,,True,informational,ar,opt_in,elder,,,18.0,,followup_resolved
+R-0467,Elena 1467,86,male,Saadiyat,HH-0017,1,2026-08-24,86,-0.004,0.046,,False,actionable,en,opt_in,elder,,,47.0,,followup_resolved
+R-0468,Aisha 1468,45,female,Al Ain,HH-0018,15,2026-10-24,25,0.098,-0.009,,True,none,ar,opt_in,cardiometabolic_adult,,,52.0,,booked
+R-0469,Juan 1469,15,male,Al Dhafra,HH-0019,25,2026-05-26,176,-0.058,-0.043,0.37,False,none,ar,unknown,child_adolescent,6.0,90.0,,,completed
+R-0470,Hamad 1470,84,male,Abu Dhabi Island,HH-0020,63,2026-08-19,91,-0.024,0.027,,False,none,en,opt_in,elder,,,0.0,,completed
+R-0471,Khalid 1471,48,male,Khalifa City,HH-0021,1,2026-10-09,40,-0.001,-0.039,,False,none,ar,opt_in,sparse_newcomer,,,70.0,,booked
+R-0472,Juan 1472,37,male,Mohammed Bin Zayed City,HH-0022,11,2026-06-30,141,-0.008,-0.004,,True,informational,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0473,James 1473,25,male,Mussafah,HH-0023,41,2025-12-05,348,0.074,0.038,,False,informational,en,opt_in,young_adult,,,0.0,,invited
+R-0474,Maria 1474,68,female,Al Shamkha,HH-0024,33,2026-02-18,273,0.018,0.058,,True,informational,ar,opt_out,elder,,,76.0,,booked
+R-0475,Ali 1475,68,male,Yas Island,HH-0025,24,2026-07-12,129,0.022,0.021,,False,none,en,opt_out,elder,,,0.0,,followup_resolved
+R-0476,Yusuf 1476,11,female,Saadiyat,HH-0026,13,2026-06-24,147,-0.021,0.013,2.96,False,none,ar,opt_in,child_adolescent,24.0,0.0,,,booked
+R-0477,Elena 1477,34,male,Al Ain,HH-0027,2,2025-11-30,353,-0.03,0.028,,False,none,ar,opt_in,sparse_newcomer,,,0.0,,invited
+R-0478,Amna 1478,64,female,Al Dhafra,HH-0028,18,2026-04-03,229,-0.032,0.004,,True,informational,en,opt_in,cardiometabolic_adult,,,0.0,,invited
+R-0479,Hessa 1479,10,female,Abu Dhabi Island,HH-0029,24,2025-12-02,351,0.003,-0.016,2.03,False,,en,opt_in,child_adolescent,36.0,0.0,,,
+R-0480,Maryam 1480,59,male,Khalifa City,HH-0030,64,2026-02-02,289,0.105,0.029,,True,actionable,ar,unknown,cardiometabolic_adult,,,73.0,,
+R-0481,Ali 1481,19,female,Mohammed Bin Zayed City,HH-0031,15,2026-01-13,309,0.042,-0.028,,False,none,en,opt_in,young_adult,,,0.0,,booked
+R-0482,Juan 1482,4,female,Mussafah,HH-0032,59,2026-09-14,65,0.047,-0.091,3.84,False,,en,opt_in,infant_toddler,60.0,106.0,,,invited
+R-0483,Priya 1483,25,male,Al Shamkha,HH-0033,65,2026-01-18,304,0.148,-0.025,,True,actionable,ur,opt_in,young_adult,,,0.0,,completed
+R-0484,Aisha 1484,3,female,Yas Island,HH-0034,66,2025-12-14,339,0.023,0.041,1.52,False,informational,ar,opt_in,infant_toddler,36.0,0.0,,,followup_resolved
+R-0485,Khalid 1485,87,male,Saadiyat,HH-0035,67,2026-09-24,55,-0.06,-0.005,,False,none,en,unknown,elder,,,62.0,,booked
+R-0486,Ahmed 1486,18,male,Al Ain,HH-0036,5,2026-08-19,91,-0.016,-0.032,,False,none,ar,opt_in,young_adult,,,0.0,,
+R-0487,Layla 1487,1,female,Al Dhafra,HH-0037,28,2026-09-21,58,-0.055,0.034,-2.23,False,informational,ar,opt_in,infant_toddler,18.0,0.0,,,followup_resolved
+R-0488,Hessa 1488,25,male,Abu Dhabi Island,HH-0038,39,2026-06-25,146,0.048,0.005,,False,,ar,opt_in,young_adult,,,0.0,,followup_resolved
+R-0489,Maria 1489,47,male,Khalifa City,HH-0039,69,2026-05-02,200,0.031,0.027,,False,informational,en,opt_in,cardiometabolic_adult,,,0.0,,
+R-0490,Maria 1490,49,female,Mohammed Bin Zayed City,HH-0040,5,2026-10-25,24,0.003,-0.008,,True,informational,en,opt_in,cardiometabolic_adult,,,0.0,,completed
+R-0491,Juan 1491,16,female,Mussafah,HH-0041,10,2026-10-04,45,0.05,-0.023,4.06,False,informational,ar,opt_in,child_adolescent,48.0,0.0,,,followup_resolved
+R-0492,Hassan 1492,75,female,Al Shamkha,HH-0042,30,2026-03-13,250,0.065,-0.028,,True,none,ar,opt_in,elder,,,11.0,,
+R-0493,Maria 1493,0,male,Yas Island,HH-0043,63,2025-12-10,343,-0.007,-0.031,2.6,False,,ar,unknown,infant_toddler,24.0,65.0,,,booked
+R-0494,Ali 1494,35,female,Saadiyat,HH-0044,4,2026-09-07,72,0.075,0.074,,True,none,ar,opt_in,sparse_newcomer,,,0.0,,invited
+R-0495,Aisha 1495,40,female,Al Ain,HH-0045,53,2026-04-12,220,-0.039,-0.004,,False,,ar,opt_in,cardiometabolic_adult,,,0.0,,
+R-0496,Priya 1496,49,female,Al Dhafra,HH-0046,25,2026-06-10,161,0.104,0.025,,True,,ar,opt_in,cardiometabolic_adult,,,0.0,,followup_resolved
+R-0497,Omar 1497,23,male,Abu Dhabi Island,HH-0047,38,2025-12-12,341,-0.038,-0.018,,False,,tl,opt_in,young_adult,,,0.0,,
+R-0498,Hamad 1498,0,male,Khalifa City,HH-0048,12,2026-06-29,142,-0.034,0.011,-3.4,False,none,ar,opt_out,infant_toddler,12.0,0.0,,,followup_resolved
+R-0499,Maria 1499,3,male,Mohammed Bin Zayed City,HH-0049,12,2026-01-13,309,-0.073,-0.029,-0.18,True,informational,en,opt_in,infant_toddler,6.0,101.0,,,booked
+R-0500,Hassan 1500,12,female,Mussafah,HH-0050,5,2026-04-27,205,0.033,0.053,-10.24,False,none,en,opt_in,child_adolescent,36.0,0.0,,,

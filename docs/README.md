@@ -22,6 +22,10 @@ Read and implement in sequence. Do not skip build steps.
 | v0.9 | [v0.9-repo-layout-and-tech-stack.md](./v0.9-repo-layout-and-tech-stack.md) | Repo layout & tech stack | Ready |
 | v1.0 | [v1.0-prototype-build-checklist.md](./v1.0-prototype-build-checklist.md) | **Ship** — end-to-end checklist | Ready |
 | Post-v1 | [roadmap-pilot-to-scale.md](./roadmap-pilot-to-scale.md) | Pilot → emirate-wide (out of prototype scope) | Ready |
+| Tracker | [engines-and-implementation-phases.md](./engines-and-implementation-phases.md) | All engines + which phase to implement | Ready |
+| Code map | [ARCHITECTURE.md](./ARCHITECTURE.md) | Docs layers → repo packages | Ready |
+| Governance | [governance-compliance-audit.md](./governance-compliance-audit.md) | Rules compliance + required flow | Ready |
+| CI | [ci-workflow.md](./ci-workflow.md) | GitHub Actions DAG (Unit→E2E) | Ready |
 
 ## Implementation rule
 

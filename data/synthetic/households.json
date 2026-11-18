@@ -1,0 +1,1202 @@
+[
+  {
+    "household_id": "HH-0001",
+    "district": "Rare District Zayed",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.774
+  },
+  {
+    "household_id": "HH-0002",
+    "district": "Rare District Zayed",
+    "member_count": 4,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.439
+  },
+  {
+    "household_id": "HH-0003",
+    "district": "Rare District Zayed",
+    "member_count": 5,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.859
+  },
+  {
+    "household_id": "HH-0004",
+    "district": "Rare District Zayed",
+    "member_count": 4,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.697
+  },
+  {
+    "household_id": "HH-0005",
+    "district": "Rare District Zayed",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.094
+  },
+  {
+    "household_id": "HH-0006",
+    "district": "Rare District Zayed",
+    "member_count": 5,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.976
+  },
+  {
+    "household_id": "HH-0007",
+    "district": "Yas Island",
+    "member_count": 4,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.761
+  },
+  {
+    "household_id": "HH-0008",
+    "district": "Saadiyat",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.786
+  },
+  {
+    "household_id": "HH-0009",
+    "district": "Al Ain",
+    "member_count": 4,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.128
+  },
+  {
+    "household_id": "HH-0010",
+    "district": "Al Dhafra",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.45
+  },
+  {
+    "household_id": "HH-0011",
+    "district": "Abu Dhabi Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.371
+  },
+  {
+    "household_id": "HH-0012",
+    "district": "Khalifa City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.927
+  },
+  {
+    "household_id": "HH-0013",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.644
+  },
+  {
+    "household_id": "HH-0014",
+    "district": "Mussafah",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.823
+  },
+  {
+    "household_id": "HH-0015",
+    "district": "Al Shamkha",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.443
+  },
+  {
+    "household_id": "HH-0016",
+    "district": "Yas Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.227
+  },
+  {
+    "household_id": "HH-0017",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.555
+  },
+  {
+    "household_id": "HH-0018",
+    "district": "Al Ain",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.064
+  },
+  {
+    "household_id": "HH-0019",
+    "district": "Al Dhafra",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.828
+  },
+  {
+    "household_id": "HH-0020",
+    "district": "Abu Dhabi Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.632
+  },
+  {
+    "household_id": "HH-0021",
+    "district": "Khalifa City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.758
+  },
+  {
+    "household_id": "HH-0022",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.355
+  },
+  {
+    "household_id": "HH-0023",
+    "district": "Mussafah",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.971
+  },
+  {
+    "household_id": "HH-0024",
+    "district": "Al Shamkha",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.893
+  },
+  {
+    "household_id": "HH-0025",
+    "district": "Yas Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.778
+  },
+  {
+    "household_id": "HH-0026",
+    "district": "Saadiyat",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.195
+  },
+  {
+    "household_id": "HH-0027",
+    "district": "Al Ain",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.467
+  },
+  {
+    "household_id": "HH-0028",
+    "district": "Al Dhafra",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.044
+  },
+  {
+    "household_id": "HH-0029",
+    "district": "Abu Dhabi Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.154
+  },
+  {
+    "household_id": "HH-0030",
+    "district": "Khalifa City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.683
+  },
+  {
+    "household_id": "HH-0031",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.745
+  },
+  {
+    "household_id": "HH-0032",
+    "district": "Mussafah",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.968
+  },
+  {
+    "household_id": "HH-0033",
+    "district": "Al Shamkha",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.326
+  },
+  {
+    "household_id": "HH-0034",
+    "district": "Yas Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.37
+  },
+  {
+    "household_id": "HH-0035",
+    "district": "Saadiyat",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.47
+  },
+  {
+    "household_id": "HH-0036",
+    "district": "Al Ain",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.189
+  },
+  {
+    "household_id": "HH-0037",
+    "district": "Al Dhafra",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.13
+  },
+  {
+    "household_id": "HH-0038",
+    "district": "Abu Dhabi Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.476
+  },
+  {
+    "household_id": "HH-0039",
+    "district": "Khalifa City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.227
+  },
+  {
+    "household_id": "HH-0040",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.67
+  },
+  {
+    "household_id": "HH-0041",
+    "district": "Mussafah",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.437
+  },
+  {
+    "household_id": "HH-0042",
+    "district": "Al Shamkha",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.833
+  },
+  {
+    "household_id": "HH-0043",
+    "district": "Yas Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.7
+  },
+  {
+    "household_id": "HH-0044",
+    "district": "Saadiyat",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.312
+  },
+  {
+    "household_id": "HH-0045",
+    "district": "Al Ain",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.832
+  },
+  {
+    "household_id": "HH-0046",
+    "district": "Al Dhafra",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.805
+  },
+  {
+    "household_id": "HH-0047",
+    "district": "Abu Dhabi Island",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.387
+  },
+  {
+    "household_id": "HH-0048",
+    "district": "Khalifa City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.288
+  },
+  {
+    "household_id": "HH-0049",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.682
+  },
+  {
+    "household_id": "HH-0050",
+    "district": "Mussafah",
+    "member_count": 4,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.14
+  },
+  {
+    "household_id": "HH-0051",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.2
+  },
+  {
+    "household_id": "HH-0052",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.007
+  },
+  {
+    "household_id": "HH-0053",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.787
+  },
+  {
+    "household_id": "HH-0054",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.665
+  },
+  {
+    "household_id": "HH-0055",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.705
+  },
+  {
+    "household_id": "HH-0056",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.781
+  },
+  {
+    "household_id": "HH-0057",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.459
+  },
+  {
+    "household_id": "HH-0058",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.569
+  },
+  {
+    "household_id": "HH-0059",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.14
+  },
+  {
+    "household_id": "HH-0060",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.115
+  },
+  {
+    "household_id": "HH-0061",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.668
+  },
+  {
+    "household_id": "HH-0062",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.471
+  },
+  {
+    "household_id": "HH-0063",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.565
+  },
+  {
+    "household_id": "HH-0064",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.765
+  },
+  {
+    "household_id": "HH-0065",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.635
+  },
+  {
+    "household_id": "HH-0066",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.554
+  },
+  {
+    "household_id": "HH-0067",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.559
+  },
+  {
+    "household_id": "HH-0068",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.304
+  },
+  {
+    "household_id": "HH-0069",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.031
+  },
+  {
+    "household_id": "HH-0070",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.437
+  },
+  {
+    "household_id": "HH-0071",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.215
+  },
+  {
+    "household_id": "HH-0072",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.409
+  },
+  {
+    "household_id": "HH-0073",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.853
+  },
+  {
+    "household_id": "HH-0074",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.234
+  },
+  {
+    "household_id": "HH-0075",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.058
+  },
+  {
+    "household_id": "HH-0076",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.281
+  },
+  {
+    "household_id": "HH-0077",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.294
+  },
+  {
+    "household_id": "HH-0078",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.662
+  },
+  {
+    "household_id": "HH-0079",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.557
+  },
+  {
+    "household_id": "HH-0080",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.784
+  },
+  {
+    "household_id": "HH-0081",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.664
+  },
+  {
+    "household_id": "HH-0082",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.406
+  },
+  {
+    "household_id": "HH-0083",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.814
+  },
+  {
+    "household_id": "HH-0084",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.167
+  },
+  {
+    "household_id": "HH-0085",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.023
+  },
+  {
+    "household_id": "HH-0086",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.09
+  },
+  {
+    "household_id": "HH-0087",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.722
+  },
+  {
+    "household_id": "HH-0088",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.462
+  },
+  {
+    "household_id": "HH-0089",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.161
+  },
+  {
+    "household_id": "HH-0090",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.501
+  },
+  {
+    "household_id": "HH-0091",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.152
+  },
+  {
+    "household_id": "HH-0092",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.696
+  },
+  {
+    "household_id": "HH-0093",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.446
+  },
+  {
+    "household_id": "HH-0094",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.381
+  },
+  {
+    "household_id": "HH-0095",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.302
+  },
+  {
+    "household_id": "HH-0096",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.63
+  },
+  {
+    "household_id": "HH-0097",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.362
+  },
+  {
+    "household_id": "HH-0098",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.088
+  },
+  {
+    "household_id": "HH-0099",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.118
+  },
+  {
+    "household_id": "HH-0100",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.962
+  },
+  {
+    "household_id": "HH-0101",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.909
+  },
+  {
+    "household_id": "HH-0102",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.7
+  },
+  {
+    "household_id": "HH-0103",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.266
+  },
+  {
+    "household_id": "HH-0104",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.969
+  },
+  {
+    "household_id": "HH-0105",
+    "district": "Al Shamkha",
+    "member_count": 2,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.779
+  },
+  {
+    "household_id": "HH-0106",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.717
+  },
+  {
+    "household_id": "HH-0107",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.449
+  },
+  {
+    "household_id": "HH-0108",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.272
+  },
+  {
+    "household_id": "HH-0109",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.096
+  },
+  {
+    "household_id": "HH-0110",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.903
+  },
+  {
+    "household_id": "HH-0111",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.456
+  },
+  {
+    "household_id": "HH-0112",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.202
+  },
+  {
+    "household_id": "HH-0113",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.306
+  },
+  {
+    "household_id": "HH-0114",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.579
+  },
+  {
+    "household_id": "HH-0115",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.177
+  },
+  {
+    "household_id": "HH-0116",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.857
+  },
+  {
+    "household_id": "HH-0117",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.759
+  },
+  {
+    "household_id": "HH-0118",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.719
+  },
+  {
+    "household_id": "HH-0119",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.432
+  },
+  {
+    "household_id": "HH-0120",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.627
+  },
+  {
+    "household_id": "HH-0121",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.584
+  },
+  {
+    "household_id": "HH-0122",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.65
+  },
+  {
+    "household_id": "HH-0123",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.084
+  },
+  {
+    "household_id": "HH-0124",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.416
+  },
+  {
+    "household_id": "HH-0125",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.042
+  },
+  {
+    "household_id": "HH-0126",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.494
+  },
+  {
+    "household_id": "HH-0127",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.33
+  },
+  {
+    "household_id": "HH-0128",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.145
+  },
+  {
+    "household_id": "HH-0129",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.103
+  },
+  {
+    "household_id": "HH-0130",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.588
+  },
+  {
+    "household_id": "HH-0131",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.171
+  },
+  {
+    "household_id": "HH-0132",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.925
+  },
+  {
+    "household_id": "HH-0133",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.581
+  },
+  {
+    "household_id": "HH-0134",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.347
+  },
+  {
+    "household_id": "HH-0135",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.591
+  },
+  {
+    "household_id": "HH-0136",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.023
+  },
+  {
+    "household_id": "HH-0137",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.959
+  },
+  {
+    "household_id": "HH-0138",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.482
+  },
+  {
+    "household_id": "HH-0139",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.783
+  },
+  {
+    "household_id": "HH-0140",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.083
+  },
+  {
+    "household_id": "HH-0141",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.487
+  },
+  {
+    "household_id": "HH-0142",
+    "district": "Yas Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.491
+  },
+  {
+    "household_id": "HH-0143",
+    "district": "Saadiyat",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.938
+  },
+  {
+    "household_id": "HH-0144",
+    "district": "Al Ain",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.572
+  },
+  {
+    "household_id": "HH-0145",
+    "district": "Al Dhafra",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.473
+  },
+  {
+    "household_id": "HH-0146",
+    "district": "Abu Dhabi Island",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.267
+  },
+  {
+    "household_id": "HH-0147",
+    "district": "Khalifa City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": false,
+    "geographic_exposure_index": 0.332
+  },
+  {
+    "household_id": "HH-0148",
+    "district": "Mohammed Bin Zayed City",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.521
+  },
+  {
+    "household_id": "HH-0149",
+    "district": "Mussafah",
+    "member_count": 3,
+    "has_child": true,
+    "has_adult": true,
+    "geographic_exposure_index": 0.439
+  },
+  {
+    "household_id": "HH-0150",
+    "district": "Al Shamkha",
+    "member_count": 3,
+    "has_child": false,
+    "has_adult": true,
+    "geographic_exposure_index": 0.022
+  }
+]

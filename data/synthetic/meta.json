@@ -1,0 +1,8 @@
+{
+  "dataset_name": "hayah_pulse_synthetic_v0.5",
+  "n_residents": 500,
+  "n_households": 150,
+  "seed": 42,
+  "reference_date": "2026-11-18",
+  "disclaimer": "Synthetic demo data \u2014 not real patients"
+}
