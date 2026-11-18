@@ -14,7 +14,6 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[2]
 FILES = [
     ROOT / ".github" / "workflows" / "ci.yml",
-    ROOT / ".github" / "workflows" / "test-pipeline.yml",
 ]
 
 

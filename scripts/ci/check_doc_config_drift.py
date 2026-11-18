@@ -10,11 +10,9 @@ ROOT = Path(__file__).resolve().parents[2]
 README = (ROOT / "README.md").read_text(encoding="utf-8")
 DOCS_README = (ROOT / "docs" / "README.md").read_text(encoding="utf-8")
 CI = (ROOT / ".github" / "workflows" / "ci.yml").read_text(encoding="utf-8")
-PIPELINE = (ROOT / ".github" / "workflows" / "test-pipeline.yml").read_text(encoding="utf-8")
-CI_BUNDLE = CI + "\n" + PIPELINE
 
 required_readme = ["/api/v1/health", "/api/v1/residents"]
-required_ci_jobs = [
+required_suites = [
     "lint",
     "unit",
     "integration",
@@ -33,11 +31,11 @@ def main() -> int:
             errors.append(f"README.md missing `{needle}`")
     if "governance-compliance-audit.md" not in DOCS_README:
         errors.append("docs/README.md missing governance audit link")
-    if "uses: ./.github/workflows/test-pipeline.yml" not in CI:
-        errors.append("ci.yml must call test-pipeline.yml (nested one-column UI)")
-    for job in required_ci_jobs:
-        if f"name: {job}" not in CI_BUNDLE and f"{job}:" not in PIPELINE:
-            errors.append(f"test-pipeline.yml missing job related to {job}")
+    if "strategy:" not in CI or "matrix:" not in CI or "max-parallel: 1" not in CI:
+        errors.append("ci.yml must use matrix + max-parallel: 1 (one-column box UI)")
+    for suite in required_suites:
+        if f"- {suite}" not in CI:
+            errors.append(f"ci.yml matrix missing suite `{suite}`")
     if errors:
         print("doc-config-drift failures:")
         print("\n".join(errors))

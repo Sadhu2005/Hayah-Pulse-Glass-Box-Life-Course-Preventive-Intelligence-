@@ -1,23 +1,22 @@
-# CI Workflow (one column / one box UI)
+# CI Workflow (one vertical box)
 
-Like `staging-pipeline.yml`: jobs appear **inside one grouped box**, stacked in a single column — not spread across the canvas as separate top-level nodes.
+**Wanted UI** (like staging-pipeline): one card, suites stacked in a **column** — not a long left-to-right chain.
 
-| File | Role |
-| --- | --- |
-| [`.github/workflows/ci.yml`](../.github/workflows/ci.yml) | Parent — calls the reusable pipeline |
-| [`.github/workflows/test-pipeline.yml`](../.github/workflows/test-pipeline.yml) | Nested jobs (the column inside the box) |
+**How:** one job + `strategy.matrix` + `max-parallel: 1`
 
 ```text
-┌─ pipeline ─────────────────┐
-│  lint                      │
-│  unit                      │
-│  integration               │
-│  functional                │
-│  regression                │
-│  blackbox                  │
-│  e2e                       │
-│  all                       │
-└────────────────────────────┘
+┌─ pipeline ──────────────┐
+│ lint                    │
+│ unit                    │
+│ integration             │
+│ functional              │
+│ regression              │
+│ blackbox                │
+│ e2e                     │
+│ all                     │
+└─────────────────────────┘
 ```
 
-Order inside the box: each job waits for the previous (`needs`).
+- File: [`.github/workflows/ci.yml`](../.github/workflows/ci.yml)
+- Suites still run **one after another** (`max-parallel: 1`, `fail-fast: true`)
+- Actions graph shows them as a **matrix group in one box** (vertical list)

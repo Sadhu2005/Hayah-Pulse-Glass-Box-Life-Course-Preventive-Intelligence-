@@ -72,9 +72,10 @@ Or `make test-unit`, `make test-integration`, … / `make test-all`
 
 ## CI workflow UI
 
-GitHub Actions shows **one grouped box / one column** (staging-pipeline style) via reusable workflow:
+GitHub Actions shows **one vertical box** (staging-pipeline style) via matrix:
 
-`ci.yml` → `test-pipeline.yml` → nested `lint` / `unit` / `integration` / `functional` / `regression` / `blackbox` / `e2e` / `all`
+`pipeline` matrix → `lint` · `unit` · `integration` · `functional` · `regression` · `blackbox` · `e2e` · `all`  
+(`max-parallel: 1` so they still run one after another)
 
 ## Environment
 

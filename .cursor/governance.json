@@ -91,14 +91,11 @@
       "id": "capability.ci-workflow",
       "kind": "capability",
       "path": ".github/workflows/ci.yml",
-      "does": "GitHub Actions one-box/one-column UI: ci.yml calls reusable test-pipeline.yml nesting lint→unit→integration→functional→regression→blackbox→e2e→all.",
+      "does": "GitHub Actions one vertical box UI: ci.yml pipeline matrix (lint, unit, integration, functional, regression, blackbox, e2e, all) with max-parallel 1.",
       "status": "active",
       "registered_at": "2026-11-18",
       "related_docs": ["docs/ci-workflow.md"],
-      "paths": [
-        ".github/workflows/ci.yml",
-        ".github/workflows/test-pipeline.yml"
-      ]
+      "paths": [".github/workflows/ci.yml"]
     },
     {
       "id": "capability.ci-static-checkers",
