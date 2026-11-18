@@ -72,9 +72,9 @@ Or `make test-unit`, `make test-integration`, … / `make test-all`
 
 ## CI workflow UI
 
-GitHub Actions (`.github/workflows/ci.yml`) draws **one vertical stack** (staging-pipeline style):
+GitHub Actions shows **one grouped box / one column** (staging-pipeline style) via reusable workflow:
 
-`lint → unit → integration → functional → regression → blackbox → e2e → all`
+`ci.yml` → `test-pipeline.yml` → nested `lint` / `unit` / `integration` / `functional` / `regression` / `blackbox` / `e2e` / `all`
 
 ## Environment
 

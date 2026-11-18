@@ -91,10 +91,14 @@
       "id": "capability.ci-workflow",
       "kind": "capability",
       "path": ".github/workflows/ci.yml",
-      "does": "GitHub Actions one-column stack (staging style): lint → unit → integration → functional → regression → blackbox → e2e → all.",
+      "does": "GitHub Actions one-box/one-column UI: ci.yml calls reusable test-pipeline.yml nesting lint→unit→integration→functional→regression→blackbox→e2e→all.",
       "status": "active",
       "registered_at": "2026-11-18",
-      "related_docs": ["docs/ci-workflow.md"]
+      "related_docs": ["docs/ci-workflow.md"],
+      "paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/test-pipeline.yml"
+      ]
     },
     {
       "id": "capability.ci-static-checkers",

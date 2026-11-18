@@ -1,29 +1,23 @@
-# CI Workflow (staging-pipeline style)
+# CI Workflow (one column / one box UI)
 
-**File:** [`.github/workflows/ci.yml`](../.github/workflows/ci.yml)
+Like `staging-pipeline.yml`: jobs appear **inside one grouped box**, stacked in a single column — not spread across the canvas as separate top-level nodes.
 
-One vertical column in the GitHub Actions UI (same pattern as `lint → … → build-staging`):
+| File | Role |
+| --- | --- |
+| [`.github/workflows/ci.yml`](../.github/workflows/ci.yml) | Parent — calls the reusable pipeline |
+| [`.github/workflows/test-pipeline.yml`](../.github/workflows/test-pipeline.yml) | Nested jobs (the column inside the box) |
 
 ```text
-lint
-unit
-integration
-functional
-regression
-blackbox
-e2e
-all
+┌─ pipeline ─────────────────┐
+│  lint                      │
+│  unit                      │
+│  integration               │
+│  functional                │
+│  regression                │
+│  blackbox                  │
+│  e2e                       │
+│  all                       │
+└────────────────────────────┘
 ```
 
-Each job `needs` only the previous one — so Actions draws **one stacked group**, not a wide fork/join graph.
-
-| Job | What it runs |
-| --- | --- |
-| **lint** | compile + config-yaml + secret-pattern + doc drift/links |
-| **unit** | `tests/unit` |
-| **integration** | `tests/integration` |
-| **functional** | `tests/functional` |
-| **regression** | `tests/regression` |
-| **blackbox** | `tests/blackbox` |
-| **e2e** | `tests/e2e` + frontend build |
-| **all** | full suite + evaluation gates (final join) |
+Order inside the box: each job waits for the previous (`needs`).
