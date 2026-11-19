@@ -6,7 +6,8 @@ Explainable, consent-first population health engine that converts longitudinal c
 
 > Prototype uses **100% synthetic data**. No real patient records.
 
-**Branch for this work:** `feat/ci-workflow-v1`
+**Branch:** `feat/prototype-finish-v1` (prototype v1.0 ship)  
+**Demo:** [docs/demo/WALKTHROUGH.md](./docs/demo/WALKTHROUGH.md)
 
 ## Documentation
 

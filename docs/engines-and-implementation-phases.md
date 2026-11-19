@@ -104,21 +104,21 @@ Fill **Implement when** (date or sprint) when you start that phase for the modul
 
 | ID | Engine / module | Code today | Target phase | Depth in that phase | Implement when | Done? |
 | --- | --- | --- | --- | --- | --- | --- |
-| L1.1 | Longitudinal EHR & Labs Ingest | Synthetic CSV/JSON only | **P1** connect sandbox; **P2** live clinic feed | FHIR/HL7 Malaffi-compatible | | |
-| L1.2 | Consented Genomic Ingest | Synthetic `consented_genomic_tier` | **P1** consented fields; **P4** full PGx | Actionable tiers + consent audit | | |
-| L1.3 | Registry & Visit History Ingest | Synthetic visit / overdue fields | **P1**–**P2** | Well-Child + IFHAS registries | | |
-| L1.4 | Contextual & Household Index | Synthetic HH + district | **P3** authorized household graph | Consent-scoped family links | | |
-| E1 | Care-Gap Rule Engine | `engine/rules.py` (P0 done) | **P0** → harden **P1** | Guideline-aligned thresholds on real dates | | |
-| E2 | Trajectory & Risk Stratifier | `engine/model.py` (P0 heuristic/GB) | **P0** → calibrate **P1** | Calibration slope 0.90–1.10 | | |
-| E3 | Feature Attribution Module | `engine/shap_explain.py` (P0) | **P0** → clinician audit **P1** | Stable top-3 reason UX | | |
-| E4 | Uncertainty Gate | `engine/uncertainty.py` (P0 done) | **P0** → tune **P1** | Sparse-record abstention on real completeness | | |
-| E5 | Pathway Router | `engine/router.py` (P0 done) | **P0** → EHR embed **P2** | DoH guideline tracks only | | |
+| L1.1 | Longitudinal EHR & Labs Ingest | Synthetic CSV/JSON only | **P1** connect sandbox; **P2** live clinic feed | FHIR/HL7 Malaffi-compatible | 2026-11-18 — P0 synthetic | P0 |
+| L1.2 | Consented Genomic Ingest | Synthetic `consented_genomic_tier` | **P1** consented fields; **P4** full PGx | Actionable tiers + consent audit | 2026-11-18 — P0 synthetic | P0 |
+| L1.3 | Registry & Visit History Ingest | Synthetic visit / overdue fields | **P1**–**P2** | Well-Child + IFHAS registries | 2026-11-18 — P0 synthetic | P0 |
+| L1.4 | Contextual & Household Index | Synthetic HH + district | **P3** authorized household graph | Consent-scoped family links | 2026-11-18 — P0 synthetic HH | P0 |
+| E1 | Care-Gap Rule Engine | `engine/rules.py` (P0 done) | **P0** → harden **P1** | Guideline-aligned thresholds on real dates | 2026-11-18 — P0 | yes |
+| E2 | Trajectory & Risk Stratifier | `engine/model.py` (P0 heuristic/GB) | **P0** → calibrate **P1** | Calibration slope 0.90–1.10 | 2026-11-18 — P0 | yes |
+| E3 | Feature Attribution Module | `engine/shap_explain.py` (P0) | **P0** → clinician audit **P1** | Stable top-3 reason UX | 2026-11-18 — P0 | yes |
+| E4 | Uncertainty Gate | `engine/uncertainty.py` (P0 done) | **P0** → tune **P1** | Sparse-record abstention on real completeness | 2026-11-18 — P0 | yes |
+| E5 | Pathway Router | `engine/router.py` (P0 done) | **P0** → EHR embed **P2** | DoH guideline tracks only | 2026-11-18 — P0 | yes |
 | E6 | Capacity-Aware Scheduler | Stub only | **P2** light; **P4** full | Slot supply balancing | | |
-| E7 | Language & Persona Adapter | UI AR/EN toggle; templates | **P0** EN/AR; **P2** UR/TL + personas | Guardrailed LLM + templates | | |
-| E8 | Transparency & Choice Ledger | Citizen screen (P0) | **P0** → production channel **P2** | WhatsApp/portal + audit log | | |
+| E7 | Language & Persona Adapter | EN/AR templates + UR/TL stubs | **P0** EN/AR; **P2** production UR/TL | Templates in `messageTemplates.ts` | 2026-11-18 — P0 | yes |
+| E8 | Transparency & Choice Ledger | Citizen screen (P0) | **P0** → production channel **P2** | WhatsApp/portal + audit log | 2026-11-18 — P0 | yes |
 | E9 | Closed-Loop Recall Navigator | Not built | **P2** | Reminders / reschedule until attended | | |
-| E10 | Subgroup Disparity Auditor | `fairness.py` prototype | **P0** → real metrics **P1** | TPR/FPR/uptake parity | | |
-| E11 | Small-Cell Privacy Suppressor | `fairness.py` (`n < 10`) | **P0** → enforce **P1** | Zero small-cell leaks | | |
+| E10 | Subgroup Disparity Auditor | `fairness.py` prototype | **P0** → real metrics **P1** | TPR/FPR/uptake parity | 2026-11-18 — P0 | yes |
+| E11 | Small-Cell Privacy Suppressor | `fairness.py` + UI toggle | **P0** → enforce **P1** | Zero small-cell leaks | 2026-11-18 — P0 | yes |
 | E12 | Longitudinal Outcome Tracker | Funnel approx only | **P2** → yield **P3/P4** | Booked → completed → early detection | | |
 
 ### Suggested “implement when” examples (optional)

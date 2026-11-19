@@ -3,6 +3,13 @@ import { api, type ResidentDetail, type ResidentSummary } from "../lib/api";
 import { useSelection } from "../lib/selection";
 import StatusBanner from "../components/StatusBanner";
 
+function tierClass(tier: string): string {
+  if (tier === "high") return "bg-red-100 text-red-900";
+  if (tier === "medium") return "bg-amber-100 text-amber-950";
+  if (tier === "baseline_onboarding") return "bg-sky-100 text-sky-950";
+  return "bg-[var(--mist)] text-[var(--ink)]";
+}
+
 export default function ClinicianPortal() {
   const { residentId, setResidentId } = useSelection();
   const [list, setList] = useState<ResidentSummary[]>([]);
@@ -66,20 +73,25 @@ export default function ClinicianPortal() {
       {engine && resident && (
         <section className="rounded-xl border border-[var(--mist)] bg-[var(--card)] p-5 shadow-sm space-y-4">
           <div className="flex flex-wrap gap-2 text-sm">
-            <span className="rounded-md bg-[var(--mist)] px-2 py-1">
+            <span
+              className={`rounded-md px-2.5 py-1 font-medium ${tierClass(engine.risk_tier)}`}
+            >
               Tier: {engine.risk_tier}
             </span>
-            <span className="rounded-md bg-[var(--mist)] px-2 py-1">
+            <span className="rounded-md bg-[var(--mist)] px-2.5 py-1">
               {engine.confidence_badge}
             </span>
-            <span className="rounded-md bg-[var(--mist)] px-2 py-1">
+            <span className="rounded-md bg-[var(--mist)] px-2.5 py-1">
               Score: {engine.risk_score}
+            </span>
+            <span className="rounded-md bg-[var(--mist)] px-2.5 py-1">
+              Uncertainty: {engine.uncertainty}
             </span>
           </div>
 
           <div>
             <h2 className="text-xl">Pathway recommendation</h2>
-            <p className="mt-1 text-[var(--teal-deep)] font-medium">
+            <p className="mt-1 text-lg text-[var(--teal-deep)] font-medium">
               {engine.pathway_recommendation}
             </p>
             <p className="text-sm text-[var(--ink)]/60">{engine.pathway}</p>

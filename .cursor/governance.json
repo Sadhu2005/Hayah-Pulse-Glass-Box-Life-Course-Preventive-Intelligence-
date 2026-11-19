@@ -3,7 +3,8 @@
   "project": "Hayah-Pulse-Glass-Box-Life-Course-Preventive-Intelligence",
   "purpose": "Glass-box registry of what each Cursor agent rule, skill, and governed capability does. Nothing agent-facing is active unless listed here.",
   "updated_at": "2026-11-18",
-  "active_branch": "feat/ci-workflow-v1",
+  "active_branch": "feat/prototype-finish-v1",
+  "prototype_status": "v1.0_shipped_checklist_complete",
   "api_contract": "/api/v1",
   "compliance": {
     "versioned_branches": "active_on_feat/ci-workflow-v1",
