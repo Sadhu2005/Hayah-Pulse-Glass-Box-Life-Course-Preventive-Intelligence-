@@ -54,6 +54,8 @@ jobs:
           python scripts/ci/check_secret_patterns.py
           python scripts/ci/check_doc_config_drift.py
           python scripts/ci/check_doc_links.py
+          python scripts/ci/check_message_templates.py
+
 
       - name: unit
         if: matrix.suite == 'unit'
